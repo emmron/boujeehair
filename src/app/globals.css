@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
 :root {
-  --background: #121212;
-  --foreground: #ffffff;
-  --accent-pink: #f079a6;
+  --background: #ffffff;
+  --foreground: #2d1b30;
+  --primary-pink: #ff6b9d;
+  --secondary-pink: #ff8fb3;
+  --light-pink: #ffe0ec;
+  --dark-pink: #e55d87;
+  --gradient-pink: linear-gradient(135deg, #ff6b9d 0%, #ff8fb3 100%);
+  --gradient-light: linear-gradient(135deg, #ffffff 0%, #ffe0ec 100%);
+  --shadow-pink: 0 10px 25px rgba(255, 107, 157, 0.2);
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-accent-pink: var(--accent-pink);
+  --color-primary-pink: var(--primary-pink);
+  --color-secondary-pink: var(--secondary-pink);
+  --color-light-pink: var(--light-pink);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -17,23 +26,205 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
 }
 
+/* Custom Pink & White Design System */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
   
-  .accent-pink {
-    color: var(--accent-pink);
+  /* Primary Pink Utilities */
+  .text-primary-pink {
+    color: var(--primary-pink);
   }
   
-  .bg-accent-pink {
-    background-color: var(--accent-pink);
+  .bg-primary-pink {
+    background-color: var(--primary-pink);
   }
   
-  .border-accent-pink {
-    border-color: var(--accent-pink);
+  .border-primary-pink {
+    border-color: var(--primary-pink);
   }
+  
+  /* Secondary Pink Utilities */
+  .text-secondary-pink {
+    color: var(--secondary-pink);
+  }
+  
+  .bg-secondary-pink {
+    background-color: var(--secondary-pink);
+  }
+  
+  /* Light Pink Utilities */
+  .bg-light-pink {
+    background-color: var(--light-pink);
+  }
+  
+  .text-light-pink {
+    color: var(--light-pink);
+  }
+  
+  /* Gradient Utilities */
+  .bg-gradient-pink {
+    background: var(--gradient-pink);
+  }
+  
+  .bg-gradient-light {
+    background: var(--gradient-light);
+  }
+  
+  /* Shadow Utilities */
+  .shadow-pink {
+    box-shadow: var(--shadow-pink);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background: var(--gradient-pink);
+    box-shadow: var(--shadow-pink);
+    @apply text-white px-8 py-3 rounded-full font-semibold 
+           hover:shadow-lg transition-all duration-300 
+           hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-pink border-2 border-primary-pink px-8 py-3 
+           rounded-full font-semibold hover:bg-primary-pink hover:text-white 
+           transition-all duration-300 hover:scale-105;
+  }
+  
+  .btn-ghost {
+    @apply text-primary-pink hover:bg-light-pink px-6 py-2 rounded-full 
+           transition-all duration-300;
+  }
+  
+  /* Card Styles */
+  .card-pink {
+    @apply bg-white rounded-2xl shadow-soft 
+           transition-all duration-300 hover:-translate-y-1;
+  }
+  
+  .card-pink:hover {
+    box-shadow: var(--shadow-pink);
+  }
+  
+  .card-gradient {
+    background: var(--gradient-light);
+    @apply rounded-2xl shadow-soft 
+           transition-all duration-300 hover:-translate-y-1;
+  }
+  
+  .card-gradient:hover {
+    box-shadow: var(--shadow-pink);
+  }
+  
+  /* Animation Classes */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  .animate-bounce-gentle {
+    animation: bounceGentle 2s infinite;
+  }
+  
+  /* Hover Effects */
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-pink);
+  }
+  
+  /* Text Gradient */
+  .text-gradient-pink {
+    background: var(--gradient-pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Glass Effect */
+  .glass-pink {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 107, 157, 0.2);
+  }
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceGentle {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-pink);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-pink);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-pink);
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--light-pink);
+  color: var(--primary-pink);
+}
+
+/* Focus Styles */
+*:focus {
+  outline: 2px solid var(--primary-pink);
+  outline-offset: 2px;
 }
