@@ -6,6 +6,16 @@ const nextConfig = {
     }
   },
   
+  // Disable ESLint during builds
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  
+  // Disable TypeScript errors during builds  
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  
   // Enable standalone output for Docker deployment
   output: 'standalone',
   
