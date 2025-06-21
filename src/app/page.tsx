@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import HeroSlider from '@/components/HeroSlider';
 import ProductSection from '@/components/ProductSection';
+import BookingSection from '@/components/BookingSection';
 import TargetMarket from '@/components/TargetMarket';
 import SocialFeed from '@/components/SocialFeed';
 import ShoppingCart from '@/components/ShoppingCart';
@@ -141,6 +142,7 @@ export default function Home() {
       <ProductSection title="Accessories" products={accessoryProducts} id="accessories" />
       <ProductSection title="Hair Care" products={haircareProducts} id="haircare" />
       <ProductSection title="Clip-In Extensions" products={clipinProducts} id="clipins" />
+      <BookingSection />
       <TargetMarket />
       <SocialFeed />
       <Footer />

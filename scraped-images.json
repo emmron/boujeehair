@@ -1,0 +1,62 @@
+{
+  "total": 7,
+  "categories": {
+    "ponytails": 0,
+    "clipins": 0,
+    "accessories": 0,
+    "haircare": 0,
+    "general": 7,
+    "instagram": 0
+  },
+  "images": {
+    "ponytails": [],
+    "clipins": [],
+    "accessories": [],
+    "haircare": [],
+    "instagram": [],
+    "general": [
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide2.jpg?v=1730189675",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide2-mobile_768x940.jpg?v=1730189616",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide1.jpg?v=1730189544",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide1-mobile_768x940.jpg?v=1730189572",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide3.jpg?v=1730190497",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/files/badboujee-slide3-mobile_768x940.jpg?v=1730190513",
+        "alt": "",
+        "source": "website",
+        "category": "general"
+      },
+      {
+        "src": "https://www.badboujeehair.com/cdn/shop/t/9/assets/loading.gif?v=157493769327766696621747636856",
+        "alt": "SHOP OUR COLLECTION",
+        "source": "website",
+        "category": "general"
+      }
+    ]
+  }
+}

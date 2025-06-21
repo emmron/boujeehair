@@ -11,7 +11,7 @@ const HeroSlider = () => {
       id: 1,
       title: 'Because Quality & INCHES MATTER',
       subtitle: 'Premium ponytails and extensions for busy mamas who want to look fabulous',
-      image: 'https://www.badboujeehair.com/cdn/shop/files/EFA8FA51-73E7-45DB-A056-DF8D41C18B7A.jpg',
+      image: 'https://www.badboujeehair.com/cdn/shop/files/badboujee-slide1.jpg?v=1730189544',
       cta: 'Shop Ponytails',
       accent: '✨'
     },
@@ -19,7 +19,7 @@ const HeroSlider = () => {
       id: 2,
       title: 'Where Quality Meets Affordability',
       subtitle: 'Transform your look with our premium quality extensions starting from $60',
-      image: 'https://www.badboujeehair.com/cdn/shop/files/AAB2ABDD-B629-4B96-8972-76F322C6EC1B.jpg',
+      image: 'https://www.badboujeehair.com/cdn/shop/files/badboujee-slide2.jpg?v=1730189675',
       cta: 'Shop Clip-Ins',
       accent: '💕'
     },
@@ -27,7 +27,7 @@ const HeroSlider = () => {
       id: 3,
       title: 'For The Busy Mama',
       subtitle: 'Low maintenance, high impact hair solutions that fit your lifestyle',
-      image: 'https://www.badboujeehair.com/cdn/shop/files/0F6953AA-E02C-45B5-B59B-6FB7540D3827.jpg',
+      image: 'https://www.badboujeehair.com/cdn/shop/files/badboujee-slide3.jpg?v=1730190497',
       cta: 'Shop All Products',
       accent: '👑'
     }
