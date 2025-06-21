@@ -2,8 +2,9 @@
 
 import { useState } from 'react';
 import { useCartStore } from '@/store/cartStore';
-import { ShoppingBag, Heart, Star, Zap } from 'lucide-react';
+import { ShoppingBag, Heart, Star, Zap, Eye } from 'lucide-react';
 import toast from 'react-hot-toast';
+import Link from 'next/link';
 
 interface Product {
   id: number;
@@ -105,6 +106,13 @@ const ProductSection = ({ title, products, id }: ProductSectionProps) => {
                                transition-all duration-300 ${
                                  hoveredProduct === product.id ? 'translate-x-0 opacity-100' : 'translate-x-12 opacity-0'
                                }`}>
+                  <Link 
+                    href={`/product/${product.id}`}
+                    className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-primary-pink 
+                             hover:bg-white transition-colors shadow-soft"
+                  >
+                    <Eye className="h-4 w-4" />
+                  </Link>
                   <button className="p-2 bg-white/90 rounded-full text-gray-600 hover:text-primary-pink 
                                    hover:bg-white transition-colors shadow-soft">
                     <Heart className="h-4 w-4" />
@@ -146,9 +154,14 @@ const ProductSection = ({ title, products, id }: ProductSectionProps) => {
                 </div>
 
                 {/* Product Name */}
-                <h3 className="text-lg font-bold text-gray-800 group-hover:text-primary-pink transition-colors">
-                  {product.name}
-                </h3>
+                <Link 
+                  href={`/product/${product.id}`}
+                  className="block"
+                >
+                  <h3 className="text-lg font-bold text-gray-800 group-hover:text-primary-pink transition-colors hover:text-primary-pink">
+                    {product.name}
+                  </h3>
+                </Link>
 
                 {/* Description */}
                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -167,20 +180,31 @@ const ProductSection = ({ title, products, id }: ProductSectionProps) => {
                   </div>
                 </div>
 
-                {/* Price and Add to Cart */}
-                <div className="flex items-center justify-between pt-2">
-                  <div>
-                    <span className="text-2xl font-bold text-primary-pink">
-                      {product.price}
-                    </span>
-                    <div className="text-xs text-gray-500">Free shipping over $100</div>
+                {/* Price and Actions */}
+                <div className="space-y-3 pt-2">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="text-2xl font-bold text-primary-pink">
+                        {product.price}
+                      </span>
+                      <div className="text-xs text-gray-500">Free shipping over $100</div>
+                    </div>
                   </div>
-                  <button 
-                    onClick={() => handleAddToCart(product)}
-                    className="btn-secondary text-sm px-6 py-2"
-                  >
-                    Add to Cart
-                  </button>
+                  
+                  <div className="grid grid-cols-2 gap-2">
+                    <Link 
+                      href={`/product/${product.id}`}
+                      className="btn-ghost text-sm px-4 py-2 text-center"
+                    >
+                      View Details
+                    </Link>
+                    <button 
+                      onClick={() => handleAddToCart(product)}
+                      className="btn-secondary text-sm px-4 py-2"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
