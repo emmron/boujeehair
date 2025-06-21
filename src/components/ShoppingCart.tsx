@@ -3,6 +3,7 @@
 import { useCartStore } from '@/store/cartStore';
 import { X, Plus, Minus, ShoppingBag } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import Checkout from './Checkout';
 
 const ShoppingCart = () => {
@@ -15,6 +16,7 @@ const ShoppingCart = () => {
     getTotalPrice 
   } = useCartStore();
   
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [showCheckout, setShowCheckout] = useState(false);
 
@@ -101,7 +103,10 @@ const ShoppingCart = () => {
                 <span className="text-lg font-bold accent-pink">${total.toFixed(2)} AUD</span>
               </div>
               <button 
-                onClick={() => setShowCheckout(true)}
+                onClick={() => {
+                  closeCart();
+                  router.push('/checkout');
+                }}
                 className="w-full bg-accent-pink hover:bg-pink-600 text-white font-semibold py-3 rounded-lg transition-colors duration-200"
               >
                 Proceed to Checkout

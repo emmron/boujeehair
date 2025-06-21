@@ -1,0 +1,33 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+healthcheckPath = "/api/health"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
+
+[[services]]
+name = "badboujee-web"
+
+[services.source]
+repo = "your-github-username/bad-boujee-hair"
+branch = "main"
+
+[services.variables]
+NODE_ENV = "production"
+PORT = "3000"
+
+# Database will be auto-provisioned by Railway
+# Just add these environment variables in Railway dashboard:
+# DATABASE_URL (auto-generated PostgreSQL)
+# JWT_SECRET
+# STRIPE_SECRET_KEY  
+# NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+# SMTP_HOST
+# SMTP_USER
+# SMTP_PASS
+# NEXT_PUBLIC_APP_URL
+# BUSINESS_NAME
+# BUSINESS_EMAIL
+# ADMIN_EMAIL

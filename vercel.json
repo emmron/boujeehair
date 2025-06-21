@@ -1,0 +1,57 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "JWT_SECRET": "@jwt_secret",
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "SMTP_HOST": "@smtp_host",
+    "SMTP_PORT": "@smtp_port",
+    "SMTP_USER": "@smtp_user",
+    "SMTP_PASS": "@smtp_pass",
+    "BUSINESS_NAME": "@business_name",
+    "BUSINESS_EMAIL": "@business_email",
+    "BUSINESS_PHONE": "@business_phone",
+    "ADMIN_EMAIL": "@admin_email"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "@next_public_stripe_publishable_key",
+      "NEXT_PUBLIC_APP_URL": "@next_public_app_url",
+      "NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME": "@next_public_cloudinary_cloud_name"
+    }
+  },
+  "functions": {
+    "app/api/**": {
+      "maxDuration": 30
+    }
+  },
+  "regions": ["syd1"],
+  "rewrites": [
+    {
+      "source": "/admin/(.*)",
+      "destination": "/admin/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type, Authorization"
+        }
+      ]
+    }
+  ]
+}

@@ -6,22 +6,34 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^6.10.1",
     "@stripe/react-stripe-js": "^3.7.0",
     "@stripe/stripe-js": "^7.3.1",
+    "@types/bcryptjs": "^2.4.6",
     "@types/cheerio": "^0.22.35",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/nodemailer": "^6.4.17",
     "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
     "cheerio": "^1.1.0",
     "clsx": "^2.1.1",
+    "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.519.0",
     "next": "15.3.4",
+    "nodemailer": "^7.0.3",
+    "prisma": "^6.10.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.2",
     "tailwind-merge": "^3.3.1",
-    "zustand": "^5.0.5"
+    "zustand": "^5.0.5",
+    "stripe": "^17.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -33,6 +45,7 @@
     "eslint-config-next": "15.3.4",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.16",
+    "tsx": "^4.19.1",
     "typescript": "^5"
   }
 }
