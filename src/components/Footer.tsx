@@ -31,10 +31,10 @@ const Footer = () => {
               Quality products with affordable pricing and low maintenance.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://m.facebook.com/100070077697400" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/bad.andboujeehair/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
@@ -80,11 +80,11 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-400">
             <div className="flex items-center">
               <Mail className="h-4 w-4 mr-2 accent-pink" />
-              <span>info@badboujeehair.com</span>
+              <span>monique@badboujeehair.com</span>
             </div>
             <div className="flex items-center">
               <Phone className="h-4 w-4 mr-2 accent-pink" />
-              <span>+61 XXX XXX XXX</span>
+              <span>Contact via Instagram</span>
             </div>
             <div className="flex items-center">
               <MapPin className="h-4 w-4 mr-2 accent-pink" />

@@ -33,8 +33,8 @@ const TargetMarket = () => {
           </h2>
           <div className="w-24 h-1 bg-accent-pink mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Bad & Boujee Hair is committed to making hair extensions affordable for everyone. 
-            Quality products with affordable pricing and low maintenance.
+            Because Quality & INCHES MATTER! We&apos;re committed to making hair extensions affordable for everyone. 
+            Premium ponytails and accessories designed for busy mamas who deserve to look fabulous.
           </p>
         </div>
 
@@ -59,10 +59,10 @@ const TargetMarket = () => {
             Why Choose Bad & Boujee Hair?
           </h3>
           <p className="text-lg text-gray-300 mb-6 max-w-4xl mx-auto">
-            We understand that modern women need hair solutions that fit their lifestyle. 
-            That&apos;s why we&apos;ve created a range of premium hair extensions and accessories 
-            that are both affordable and easy to maintain, perfect for busy mothers who want 
-            to look and feel their best without spending hours on their hair.
+            We understand that busy mamas need hair solutions that fit their lifestyle. 
+            That&apos;s why we&apos;ve created a range of premium ponytails, clip-ins, and hair care products 
+            that are both affordable and low maintenance - perfect for women who want 
+            to look fabulous without spending hours on their hair. Because every mama deserves to feel confident!
           </p>
           <button className="bg-accent-pink hover:bg-pink-600 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-200 text-lg">
             Shop Now
