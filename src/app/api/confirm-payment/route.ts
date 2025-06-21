@@ -1,10 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
-import Stripe from 'stripe';
 import { prisma } from '@/lib/prisma';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-06-20',
-});
+// DEMO MODE: Works immediately without Stripe setup (like WordPress!)
+const isDemoMode = !process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY.includes('demo');
+
+let stripe: any = null;
+if (!isDemoMode) {
+  const Stripe = require('stripe');
+  stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: '2024-06-20',
+  });
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -17,14 +23,20 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Verify payment intent with Stripe
-    const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId);
+    // Verify payment intent (demo mode or real Stripe)
+    if (!isDemoMode) {
+      // REAL STRIPE MODE: Verify with Stripe
+      const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId);
 
-    if (paymentIntent.status !== 'succeeded') {
-      return NextResponse.json(
-        { error: 'Payment not successful' },
-        { status: 400 }
-      );
+      if (paymentIntent.status !== 'succeeded') {
+        return NextResponse.json(
+          { error: 'Payment not successful' },
+          { status: 400 }
+        );
+      }
+    } else {
+      // DEMO MODE: Auto-approve payment (like WordPress demo)
+      console.log(`🎯 DEMO MODE: Auto-approving payment ${paymentIntentId}`);
     }
 
     // Update order status

@@ -49,6 +49,7 @@ function CheckoutForm() {
   const [clientSecret, setClientSecret] = useState('');
   const [paymentIntentId, setPaymentIntentId] = useState('');
   const [orderId, setOrderId] = useState('');
+  const [demoMode, setDemoMode] = useState(false);
   
   const [customerInfo, setCustomerInfo] = useState<CustomerInfo>({
     name: '',
@@ -117,6 +118,7 @@ function CheckoutForm() {
         setClientSecret(data.clientSecret);
         setPaymentIntentId(data.paymentIntentId);
         setOrderId(data.orderId);
+        setDemoMode(data.demoMode || false);
       } else {
         setError(data.error || 'Failed to create payment intent');
       }
@@ -169,32 +171,42 @@ function CheckoutForm() {
     }
 
     try {
-      // Confirm payment with Stripe
-      const { error: stripeError, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
-        payment_method: {
-          card: cardElement,
-          billing_details: {
-            name: customerInfo.name,
-            email: customerInfo.email,
-            phone: customerInfo.phone,
-            address: {
-              line1: billingAddress.address,
-              city: billingAddress.city,
-              state: billingAddress.state,
-              postal_code: billingAddress.postcode,
-              country: billingAddress.country === 'Australia' ? 'AU' : billingAddress.country
+      let paymentSucceeded = false;
+      
+      if (demoMode) {
+        // DEMO MODE: Auto-approve payment (like WordPress demo)
+        console.log('🎯 DEMO MODE: Auto-approving payment');
+        paymentSucceeded = true;
+      } else {
+        // REAL STRIPE MODE: Confirm payment with Stripe
+        const { error: stripeError, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
+          payment_method: {
+            card: cardElement,
+            billing_details: {
+              name: customerInfo.name,
+              email: customerInfo.email,
+              phone: customerInfo.phone,
+              address: {
+                line1: billingAddress.address,
+                city: billingAddress.city,
+                state: billingAddress.state,
+                postal_code: billingAddress.postcode,
+                country: billingAddress.country === 'Australia' ? 'AU' : billingAddress.country
+              }
             }
           }
-        }
-      });
+        });
 
-      if (stripeError) {
-        setError(stripeError.message || 'Payment failed');
-        setIsLoading(false);
-        return;
+        if (stripeError) {
+          setError(stripeError.message || 'Payment failed');
+          setIsLoading(false);
+          return;
+        }
+
+        paymentSucceeded = paymentIntent.status === 'succeeded';
       }
 
-      if (paymentIntent.status === 'succeeded') {
+      if (paymentSucceeded) {
         // Confirm with our backend
         const confirmResponse = await fetch('/api/confirm-payment', {
           method: 'POST',

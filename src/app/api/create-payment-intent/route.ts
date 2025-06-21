@@ -1,10 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
-import Stripe from 'stripe';
 import { prisma } from '@/lib/prisma';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2024-06-20',
-});
+// DEMO MODE: Works immediately without Stripe setup (like WordPress!)
+const isDemoMode = !process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY.includes('demo');
+
+let stripe: any = null;
+if (!isDemoMode) {
+  const Stripe = require('stripe');
+  stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+    apiVersion: '2024-06-20',
+  });
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -73,20 +79,34 @@ export async function POST(request: NextRequest) {
     const shipping = subtotal > 100 ? 0 : 10; // Free shipping over $100
     const total = subtotal + tax + shipping;
 
-    // Create payment intent
-    const paymentIntent = await stripe.paymentIntents.create({
-      amount: Math.round(total * 100), // Stripe uses cents
-      currency: 'aud',
-      metadata: {
-        customerEmail: customerInfo.email,
-        customerName: customerInfo.name,
-        itemsCount: items.length.toString(),
-        subtotal: subtotal.toString(),
-        tax: tax.toString(),
-        shipping: shipping.toString(),
-        total: total.toString()
-      }
-    });
+    // Create payment intent (demo mode or real Stripe)
+    let paymentIntent: any;
+    
+    if (isDemoMode) {
+      // DEMO MODE: Create mock payment intent
+      paymentIntent = {
+        id: `pi_demo_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        client_secret: `pi_demo_${Date.now()}_secret_demo_${Math.random().toString(36).substr(2, 9)}`,
+        amount: Math.round(total * 100),
+        currency: 'aud',
+        status: 'requires_payment_method'
+      };
+    } else {
+      // REAL STRIPE MODE
+      paymentIntent = await stripe.paymentIntents.create({
+        amount: Math.round(total * 100), // Stripe uses cents
+        currency: 'aud',
+        metadata: {
+          customerEmail: customerInfo.email,
+          customerName: customerInfo.name,
+          itemsCount: items.length.toString(),
+          subtotal: subtotal.toString(),
+          tax: tax.toString(),
+          shipping: shipping.toString(),
+          total: total.toString()
+        }
+      });
+    }
 
     // Store order in database with PENDING status
     const orderNumber = `BB${Date.now()}`;
@@ -122,6 +142,7 @@ export async function POST(request: NextRequest) {
       orderId: order.id,
       orderNumber: order.orderNumber,
       total: total,
+      demoMode: isDemoMode,
       breakdown: {
         subtotal,
         tax,

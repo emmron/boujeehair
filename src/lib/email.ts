@@ -1,5 +1,8 @@
 import nodemailer from 'nodemailer';
 
+// DEMO MODE: Works immediately without SMTP setup (like WordPress!)
+const isDemoMode = !process.env.SMTP_HOST || process.env.SMTP_HOST.includes('demo') || process.env.SMTP_HOST.includes('localhost');
+
 interface EmailConfig {
   host: string;
   port: number;
@@ -11,6 +14,17 @@ interface EmailConfig {
 }
 
 const createTransporter = () => {
+  if (isDemoMode) {
+    // Return a mock transporter for demo mode
+    return {
+      sendMail: async (options: any) => {
+        console.log('🎯 DEMO MODE: Email would be sent to:', options.to);
+        console.log('📧 Subject:', options.subject);
+        return { messageId: `demo_${Date.now()}_${Math.random().toString(36).substr(2, 9)}` };
+      }
+    };
+  }
+
   const config: EmailConfig = {
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     port: parseInt(process.env.SMTP_PORT || '587'),
