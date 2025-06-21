@@ -1,3 +1,8 @@
+'use client';
+
+import { useCartStore } from '@/store/cartStore';
+import toast from 'react-hot-toast';
+
 interface Product {
   id: number;
   name: string;
@@ -13,6 +18,16 @@ interface ProductSectionProps {
 }
 
 const ProductSection = ({ title, products, id }: ProductSectionProps) => {
+  const { addItem } = useCartStore();
+
+  const handleAddToCart = (product: Product) => {
+    addItem({
+      ...product,
+      category: title
+    });
+    toast.success(`${product.name} added to cart!`);
+  };
+
   return (
     <section id={id} className="py-16 bg-[#121212]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,7 +60,10 @@ const ProductSection = ({ title, products, id }: ProductSectionProps) => {
                   <span className="text-2xl font-bold accent-pink">
                     {product.price}
                   </span>
-                  <button className="bg-accent-pink hover:bg-pink-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200">
+                  <button 
+                    onClick={() => handleAddToCart(product)}
+                    className="bg-accent-pink hover:bg-pink-600 text-white font-semibold py-2 px-6 rounded-full transition-colors duration-200"
+                  >
                     Add to Cart
                   </button>
                 </div>

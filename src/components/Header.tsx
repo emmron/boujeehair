@@ -1,10 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, ShoppingBag, Search } from 'lucide-react';
+import { useCartStore } from '@/store/cartStore';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const { getTotalItems, openCart } = useCartStore();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const totalItems = mounted ? getTotalItems() : 0;
 
   const navigation = [
     { name: 'Ponytails', href: '#ponytails' },
@@ -48,8 +57,16 @@ const Header = () => {
             <button className="text-gray-300 hover:text-white transition-colors">
               <Search className="h-5 w-5" />
             </button>
-            <button className="text-gray-300 hover:text-white transition-colors">
+            <button 
+              onClick={openCart}
+              className="text-gray-300 hover:text-white transition-colors relative"
+            >
               <ShoppingBag className="h-5 w-5" />
+              {totalItems > 0 && (
+                <span className="absolute -top-2 -right-2 bg-accent-pink text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                  {totalItems}
+                </span>
+              )}
             </button>
           </div>
 
@@ -58,8 +75,16 @@ const Header = () => {
             <button className="text-gray-300 hover:text-white transition-colors">
               <Search className="h-5 w-5" />
             </button>
-            <button className="text-gray-300 hover:text-white transition-colors">
+            <button 
+              onClick={openCart}
+              className="text-gray-300 hover:text-white transition-colors relative"
+            >
               <ShoppingBag className="h-5 w-5" />
+              {totalItems > 0 && (
+                <span className="absolute -top-2 -right-2 bg-accent-pink text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+                  {totalItems}
+                </span>
+              )}
             </button>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}

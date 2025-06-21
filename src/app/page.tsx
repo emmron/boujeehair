@@ -2,7 +2,10 @@ import Header from '@/components/Header';
 import HeroSlider from '@/components/HeroSlider';
 import ProductSection from '@/components/ProductSection';
 import TargetMarket from '@/components/TargetMarket';
+import SocialFeed from '@/components/SocialFeed';
+import ShoppingCart from '@/components/ShoppingCart';
 import Footer from '@/components/Footer';
+import { Toaster } from 'react-hot-toast';
 
 export default function Home() {
   const ponytailProducts = [
@@ -118,13 +121,25 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
+      <ShoppingCart />
       <HeroSlider />
       <ProductSection title="Ponytails" products={ponytailProducts} id="ponytails" />
       <ProductSection title="Accessories" products={accessoryProducts} id="accessories" />
       <ProductSection title="Hair Care" products={haircareProducts} id="haircare" />
       <ProductSection title="Clip-In Extensions" products={clipinProducts} id="clipins" />
       <TargetMarket />
+      <SocialFeed />
       <Footer />
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          style: {
+            background: '#1a1a1a',
+            color: '#fff',
+            border: '1px solid #f079a6'
+          }
+        }}
+      />
     </div>
   );
 }
