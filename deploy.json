@@ -1,0 +1,68 @@
+{
+  "name": "Bad & Boujee Hair - E-commerce Platform",
+  "description": "Complete e-commerce + booking platform like Shopify + Calendly",
+  "repository": "https://github.com/emmron/boujeehair",
+  "env": {
+    "DATABASE_URL": {
+      "description": "Auto-generated PostgreSQL database URL",
+      "generator": "secret"
+    },
+    "JWT_SECRET": {
+      "description": "Secret for JWT tokens",
+      "generator": "secret"
+    },
+    "STRIPE_SECRET_KEY": {
+      "description": "Stripe secret key (use test key sk_test_... for now)",
+      "value": "sk_test_51OExample..."
+    },
+    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": {
+      "description": "Stripe publishable key (use test key pk_test_... for now)",
+      "value": "pk_test_51OExample..."
+    },
+    "SMTP_HOST": {
+      "description": "Email SMTP host",
+      "value": "smtp.gmail.com"
+    },
+    "SMTP_USER": {
+      "description": "Email username",
+      "value": "noreply@example.com"
+    },
+    "SMTP_PASS": {
+      "description": "Email password",
+      "value": "app-password-here"
+    },
+    "NEXT_PUBLIC_APP_URL": {
+      "description": "Your app URL (will be auto-set)",
+      "value": "https://your-app.railway.app"
+    },
+    "ADMIN_EMAIL": {
+      "description": "Admin email address",
+      "value": "admin@badboujee.com"
+    },
+    "BUSINESS_EMAIL": {
+      "description": "Business email for orders",
+      "value": "orders@badboujee.com"
+    },
+    "BUSINESS_NAME": {
+      "description": "Business name",
+      "value": "Bad & Boujee Hair"
+    },
+    "BUSINESS_PHONE": {
+      "description": "Business phone number",
+      "value": "+61400000000"
+    }
+  },
+  "build": {
+    "commands": [
+      "npm ci",
+      "npx prisma generate",
+      "npm run build"
+    ]
+  },
+  "deploy": {
+    "commands": [
+      "npx prisma migrate deploy",
+      "npm run db:seed"
+    ]
+  }
+}
