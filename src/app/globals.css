@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -11,16 +13,6 @@
   --gradient-light: linear-gradient(135deg, #ffffff 0%, #ffe0ec 100%);
   --shadow-pink: 0 10px 25px rgba(255, 107, 157, 0.2);
   --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary-pink: var(--primary-pink);
-  --color-secondary-pink: var(--secondary-pink);
-  --color-light-pink: var(--light-pink);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 body {
@@ -87,10 +79,8 @@ body {
   
   /* Button Styles */
   .btn-primary {
-    background: var(--gradient-pink);
-    box-shadow: var(--shadow-pink);
-    @apply text-white px-8 py-3 rounded-full font-semibold 
-           hover:shadow-lg transition-all duration-300 
+    @apply bg-gradient-pink text-white px-8 py-3 rounded-full font-semibold 
+           shadow-pink hover:shadow-lg transition-all duration-300 
            hover:scale-105 active:scale-95;
   }
   
@@ -107,35 +97,26 @@ body {
   
   /* Card Styles */
   .card-pink {
-    @apply bg-white rounded-2xl shadow-soft 
+    @apply bg-white rounded-2xl shadow-soft hover:shadow-pink
            transition-all duration-300 hover:-translate-y-1;
-  }
-  
-  .card-pink:hover {
-    box-shadow: var(--shadow-pink);
   }
   
   .card-gradient {
-    background: var(--gradient-light);
-    @apply rounded-2xl shadow-soft 
+    @apply bg-gradient-light rounded-2xl shadow-soft hover:shadow-pink
            transition-all duration-300 hover:-translate-y-1;
-  }
-  
-  .card-gradient:hover {
-    box-shadow: var(--shadow-pink);
   }
   
   /* Animation Classes */
   .animate-fade-in {
-    animation: fadeIn 0.6s ease-out;
+    @apply animate-fade-in;
   }
   
   .animate-slide-up {
-    animation: slideUp 0.8s ease-out;
+    @apply animate-slide-up;
   }
   
   .animate-bounce-gentle {
-    animation: bounceGentle 2s infinite;
+    @apply animate-bounce-gentle;
   }
   
   /* Hover Effects */
