@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight, Sparkles, Heart, Star } from 'lucide-react';
+import Button from './ui/Button';
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -33,18 +34,18 @@ const HeroSlider = () => {
     }
   ];
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+  }, [slides.length]);
 
   useEffect(() => {
     const timer = setInterval(nextSlide, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <div className="relative h-[70vh] md:h-[80vh] overflow-hidden bg-gradient-light">
@@ -79,12 +80,12 @@ const HeroSlider = () => {
                   {slide.subtitle}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <button className="btn-primary">
+                  <Button size="lg">
                     {slide.cta}
-                  </button>
-                  <button className="btn-secondary">
+                  </Button>
+                  <Button variant="secondary" size="lg">
                     Learn More
-                  </button>
+                  </Button>
                 </div>
                 
                 {/* Stats */}

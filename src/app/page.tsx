@@ -1,3 +1,6 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSlider from '@/components/HeroSlider';
 import ProductSection from '@/components/ProductSection';
@@ -6,9 +9,19 @@ import TargetMarket from '@/components/TargetMarket';
 import SocialFeed from '@/components/SocialFeed';
 import ShoppingCart from '@/components/ShoppingCart';
 import Footer from '@/components/Footer';
+import FloatingNotification from '@/components/ui/FloatingNotification';
 import { Toaster } from 'react-hot-toast';
 
 export default function Home() {
+  const [showNotification, setShowNotification] = useState(false);
+
+  useEffect(() => {
+    // Show notification after 3 seconds
+    const timer = setTimeout(() => {
+      setShowNotification(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   const ponytailProducts = [
     {
       id: 1,
@@ -146,6 +159,18 @@ export default function Home() {
       <TargetMarket />
       <SocialFeed />
       <Footer />
+      
+      {/* React Bits Floating Notification */}
+      <FloatingNotification
+        show={showNotification}
+        onClose={() => setShowNotification(false)}
+        type="purchase"
+        customerName="Emma K."
+        productName="Boujee Curl Ponytail - Honey Blonde"
+        location="Melbourne"
+        timeAgo="3 minutes ago"
+      />
+      
       <Toaster 
         position="top-right"
         toastOptions={{

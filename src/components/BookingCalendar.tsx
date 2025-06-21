@@ -3,6 +3,9 @@
 import { useState } from 'react';
 import { Calendar, Clock, MapPin, User, Phone, Mail, Check } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/Card';
+import Button from './ui/Button';
+import Input from './ui/Input';
 
 interface BookingCalendarProps {
   productName: string;
@@ -113,13 +116,13 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-soft overflow-hidden">
-      <div className="bg-gradient-pink text-white p-6">
-        <h2 className="text-2xl font-bold mb-2">Book Professional Service</h2>
+    <Card variant="elevated" className="overflow-hidden">
+      <CardHeader className="bg-gradient-pink text-white">
+        <CardTitle className="text-white text-2xl">Book Professional Service</CardTitle>
         <p className="opacity-90">for {productName}</p>
-      </div>
+      </CardHeader>
 
-      <div className="p-6">
+      <CardContent className="p-6">
         {/* Progress Steps */}
         <div className="flex items-center justify-center mb-8">
           {[1, 2, 3, 4].map((step) => (
@@ -168,13 +171,12 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
               ))}
             </div>
             <div className="flex justify-end pt-4">
-              <button
+              <Button
                 onClick={() => selectedService && setBookingStep(2)}
                 disabled={!selectedService}
-                className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Next: Select Date
-              </button>
+              </Button>
             </div>
           </div>
         )}
@@ -202,19 +204,18 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
               ))}
             </div>
             <div className="flex justify-between pt-4">
-              <button
+              <Button
                 onClick={() => setBookingStep(1)}
-                className="btn-ghost"
+                variant="ghost"
               >
                 Back
-              </button>
-              <button
+              </Button>
+              <Button
                 onClick={() => selectedDate && setBookingStep(3)}
                 disabled={!selectedDate}
-                className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Next: Select Time
-              </button>
+              </Button>
             </div>
           </div>
         )}
@@ -245,19 +246,18 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
               })}
             </div>
             <div className="flex justify-between pt-4">
-              <button
+              <Button
                 onClick={() => setBookingStep(2)}
-                className="btn-ghost"
+                variant="ghost"
               >
                 Back
-              </button>
-              <button
+              </Button>
+              <Button
                 onClick={() => selectedTime && setBookingStep(4)}
                 disabled={!selectedTime}
-                className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Next: Your Details
-              </button>
+              </Button>
             </div>
           </div>
         )}
@@ -292,62 +292,41 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
 
             {/* Contact Form */}
             <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Full Name *
-                </label>
-                <div className="relative">
-                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                  <input
-                    type="text"
-                    value={customerInfo.name}
-                    onChange={(e) => setCustomerInfo(prev => ({ ...prev, name: e.target.value }))}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-pink focus:border-transparent"
-                    placeholder="Enter your full name"
-                  />
-                </div>
-              </div>
+              <Input
+                label="Full Name *"
+                type="text"
+                value={customerInfo.name}
+                onChange={(e) => setCustomerInfo(prev => ({ ...prev, name: e.target.value }))}
+                placeholder="Enter your full name"
+                leftIcon={<User className="h-5 w-5" />}
+              />
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Email Address *
-                </label>
-                <div className="relative">
-                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                  <input
-                    type="email"
-                    value={customerInfo.email}
-                    onChange={(e) => setCustomerInfo(prev => ({ ...prev, email: e.target.value }))}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-pink focus:border-transparent"
-                    placeholder="Enter your email"
-                  />
-                </div>
-              </div>
+              <Input
+                label="Email Address *"
+                type="email"
+                value={customerInfo.email}
+                onChange={(e) => setCustomerInfo(prev => ({ ...prev, email: e.target.value }))}
+                placeholder="Enter your email"
+                leftIcon={<Mail className="h-5 w-5" />}
+              />
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Phone Number *
-                </label>
-                <div className="relative">
-                  <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-                  <input
-                    type="tel"
-                    value={customerInfo.phone}
-                    onChange={(e) => setCustomerInfo(prev => ({ ...prev, phone: e.target.value }))}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-pink focus:border-transparent"
-                    placeholder="Enter your phone number"
-                  />
-                </div>
-              </div>
+              <Input
+                label="Phone Number *"
+                type="tel"
+                value={customerInfo.phone}
+                onChange={(e) => setCustomerInfo(prev => ({ ...prev, phone: e.target.value }))}
+                placeholder="Enter your phone number"
+                leftIcon={<Phone className="h-5 w-5" />}
+              />
 
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+              <div className="space-y-2">
+                <label className="block text-sm font-semibold text-gray-700">
                   Special Requests
                 </label>
                 <textarea
                   value={customerInfo.notes}
                   onChange={(e) => setCustomerInfo(prev => ({ ...prev, notes: e.target.value }))}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-pink focus:border-transparent"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-pink-500 focus:ring-4 focus:ring-pink-500/20 focus:outline-none transition-all duration-300"
                   rows={3}
                   placeholder="Any special requests or notes..."
                 />
@@ -367,23 +346,22 @@ const BookingCalendar = ({ productName }: BookingCalendarProps) => {
             </div>
 
             <div className="flex justify-between pt-4">
-              <button
+              <Button
                 onClick={() => setBookingStep(3)}
-                className="btn-ghost"
+                variant="ghost"
               >
                 Back
-              </button>
-              <button
+              </Button>
+              <Button
                 onClick={handleBooking}
-                className="btn-primary"
               >
                 Confirm Booking
-              </button>
+              </Button>
             </div>
           </div>
         )}
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 

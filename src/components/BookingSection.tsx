@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { Calendar, MapPin, Clock, Star, Phone, Mail } from 'lucide-react';
 import BookingCalendar from './BookingCalendar';
+import { Card, CardContent } from './ui/Card';
+import Button from './ui/Button';
 
 const BookingSection = () => {
   const [showBooking, setShowBooking] = useState(false);
@@ -83,9 +85,10 @@ const BookingSection = () => {
             {/* Services Grid */}
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               {services.map((service, index) => (
-                <div 
+                <Card
                   key={service.name}
-                  className="card-pink p-6 text-center group hover-lift"
+                  variant="glass"
+                  className="p-6 text-center group"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="mb-4">
@@ -115,14 +118,14 @@ const BookingSection = () => {
                     <span className="text-sm text-gray-600">{service.rating} ({service.reviews} reviews)</span>
                   </div>
                   
-                  <button 
+                  <Button 
                     onClick={() => setShowBooking(true)}
-                    className="btn-primary w-full group-hover:scale-105 transition-transform"
+                    className="w-full group-hover:scale-105 transition-transform"
                   >
                     <Calendar className="h-4 w-4 mr-2 inline" />
                     Book Now
-                  </button>
-                </div>
+                  </Button>
+                </Card>
               ))}
             </div>
 
@@ -164,18 +167,19 @@ const BookingSection = () => {
                   </div>
                 </div>
 
-                <div className="pt-6">
-                  <button 
+                <div className="pt-6 flex flex-col sm:flex-row gap-4">
+                  <Button 
                     onClick={() => setShowBooking(true)}
-                    className="btn-primary text-lg px-8 py-4 mr-4"
+                    size="lg"
+                    className="px-8"
                   >
                     <Calendar className="h-5 w-5 mr-2 inline" />
                     Book Appointment
-                  </button>
+                  </Button>
                   
                   <a 
                     href="tel:+61212345678"
-                    className="btn-secondary text-lg px-8 py-4"
+                    className="inline-flex items-center justify-center rounded-full font-semibold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-white text-pink-600 border-2 border-pink-200 hover:border-pink-300 hover:bg-pink-50 shadow-md hover:shadow-lg transform hover:scale-105 focus:ring-pink-500 px-8 py-4 text-lg"
                   >
                     <Phone className="h-5 w-5 mr-2 inline" />
                     Call Now
@@ -204,7 +208,7 @@ const BookingSection = () => {
                         </div>
                         <span className="text-sm text-gray-500">{testimonial.service}</span>
                       </div>
-                      <p className="text-gray-700 mb-3 italic">"{testimonial.text}"</p>
+                      <p className="text-gray-700 mb-3 italic">&ldquo;{testimonial.text}&rdquo;</p>
                       <div className="font-semibold text-primary-pink">{testimonial.name}</div>
                     </div>
                   ))}
@@ -222,12 +226,12 @@ const BookingSection = () => {
             <BookingCalendar productName="Professional Hair Services" />
             
             <div className="text-center mt-8">
-              <button 
+              <Button 
                 onClick={() => setShowBooking(false)}
-                className="btn-ghost"
+                variant="ghost"
               >
                 ← Back to Services
-              </button>
+              </Button>
             </div>
           </div>
         )}
