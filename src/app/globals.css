@@ -108,15 +108,15 @@ body {
   
   /* Animation Classes */
   .animate-fade-in {
-    @apply animate-fade-in;
+    animation: fadeIn 0.6s ease-out;
   }
   
   .animate-slide-up {
-    @apply animate-slide-up;
+    animation: slideUp 0.8s ease-out;
   }
   
   .animate-bounce-gentle {
-    @apply animate-bounce-gentle;
+    animation: bounceGentle 2s infinite;
   }
   
   /* Hover Effects */
