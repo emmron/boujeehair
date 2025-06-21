@@ -1,0 +1,35 @@
+{
+  "site_info": {
+    "title": "Bad&BoujeeHair"
+  },
+  "metadata": {
+    "scraped_at": "2025-06-21T10:31:33.703917",
+    "scraping_method": "simple_python",
+    "analysis": {
+      "total_products": 30,
+      "total_categories": 5,
+      "total_unique_images": 247,
+      "price_range": {
+        "min": 10,
+        "max": 200,
+        "average": 76.05649717514125
+      },
+      "product_type_distribution": {
+        "": 13,
+        "Clip In Extensions": 3,
+        "Ponytail Extension": 9,
+        "Ponytail Protective Hanger": 1,
+        "Wigs": 1,
+        "Silk Bag": 1,
+        "Gift Cards": 1,
+        "Bonnet": 1
+      }
+    }
+  },
+  "last_scrape": "2025-06-21T10:31:33.703917",
+  "data_sources": [
+    "shopify_api",
+    "homepage_html",
+    "python_scraper"
+  ]
+}

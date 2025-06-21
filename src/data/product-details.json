@@ -1,0 +1,4311 @@
+{
+  "untitled-may1_23-03": {
+    "id": 10147265773852,
+    "title": "Gift Cards",
+    "handle": "untitled-may1_23-03",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-05-01T23:03:59+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-05-16T23:25:06+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 51775964479772,
+        "title": "$10.00",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51775964512540,
+        "title": "$25.00",
+        "price": "25.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51775964545308,
+        "title": "$50.00",
+        "price": "50.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51775964578076,
+        "title": "$100.00",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/LogoPNG_02062f80-03de-40a9-8ad7-ae3e55a338db.png?v=1730187238",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Denominations",
+        "position": 1,
+        "values": [
+          "$10.00",
+          "$25.00",
+          "$50.00",
+          "$100.00"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "heavenly-halo-24": {
+    "id": 10123373576476,
+    "title": "24” Hello Halo",
+    "handle": "heavenly-halo-24",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Clip In Extensions",
+    "created_at": "2025-04-08T02:40:36+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-04-08T02:58:45+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 51628656263452,
+        "title": "Black",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALO1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628668911900,
+        "title": "Almost Black",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALO2",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628668944668,
+        "title": "Dark Brown",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALO4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628668977436,
+        "title": "Choc Brown",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALO6",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669010204,
+        "title": "Bleach Blonde",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALO613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669042972,
+        "title": "Champ Blonde",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALOCHAMP",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669075740,
+        "title": "AshBrown Honey",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALOASHBH",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669108508,
+        "title": "Brown Light Brown",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALOBROWNLIGHT",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669141276,
+        "title": "Mixed Brown",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALOMIXED",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628669174044,
+        "title": "Toffee",
+        "price": "100.00",
+        "compare_at_price": "100.00",
+        "sku": "HALOTOFFEE",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5936.jpg?v=1744052381",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/AAB2ABDD-B629-4B96-8972-76F322C6EC1B.jpg?v=1744052381",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/0435FD8D-5C21-422C-97DA-E82A0098A4F0.jpg?v=1744052381",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/B7F8B257-090A-4CA3-97B7-9B10F21CBAD4.jpg?v=1744052381",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/726BA391-26CD-40AF-A7C6-EDA5363AF4B2.jpg?v=1744052381",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/58610E9F-E2EE-4C7C-8A3F-AF0632A57A4F.jpg?v=1744052381",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/C7366FB6-497C-46BD-BC29-C07EC17AEA6B.jpg?v=1744052381",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/5860B755-8381-45F1-8897-5073DCDD052D.jpg?v=1744052381",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/2A8D8818-709B-4B94-9583-4AD06559C01A.jpg?v=1744052381",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/F65902DA-D74A-4CF0-85C9-AFDE0EEF2CA6.jpg?v=1744052381",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5935.jpg?v=1744051249",
+        "alt": "",
+        "position": 11
+      }
+    ],
+    "options": [
+      {
+        "name": "Colours",
+        "position": 1,
+        "values": [
+          "Black",
+          "Almost Black",
+          "Dark Brown",
+          "Choc Brown",
+          "Bleach Blonde",
+          "Champ Blonde",
+          "AshBrown Honey",
+          "Brown Light Brown",
+          "Mixed Brown",
+          "Toffee"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "lux-clip-in-set-24-loose-curl": {
+    "id": 10123361681692,
+    "title": "24” Loose Curl Clip In",
+    "handle": "lux-clip-in-set-24-loose-curl",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-04-08T02:13:03+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-04-08T02:38:26+08:00",
+    "tags": [
+      "Clip In"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51628607078684,
+        "title": "Black",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CCL.1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628607111452,
+        "title": "Dark Brown",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CCL.4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628609536284,
+        "title": "Mixed Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CCL.22H60",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628611633436,
+        "title": "Champagne Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628613402908,
+        "title": "Sand Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CCL.K16",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51628624347420,
+        "title": "Bleach Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CCL.613",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/48BBBFA5-BB94-4A4E-A833-EC1A09D3B1F8.jpg?v=1744049669",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/97C69ACE-6902-4CF0-B0AB-40C04D535A01.jpg?v=1744049669",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/BEF112B0-1F44-4467-ABD5-691E3C06051A.jpg?v=1744049669",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FB6CC35E-96CE-4EA4-B061-9950A7B7F2E8.jpg?v=1744049669",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/5157EF0F-43B3-4A34-BE32-F02D6C44044F.jpg?v=1744049669",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/189A411C-C68C-43AA-92FA-64CF03970A24.jpg?v=1744049669",
+        "alt": "",
+        "position": 6
+      }
+    ],
+    "options": [
+      {
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Mixed Blonde",
+          "Champagne Blonde",
+          "Sand Blonde",
+          "Bleach Blonde"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "untitled-apr7_20-48": {
+    "id": 10123160322332,
+    "title": "36” The Baddest Pony - Straight",
+    "handle": "untitled-apr7_20-48",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2025-04-07T20:48:09+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-04-07T21:09:41+08:00",
+    "tags": [
+      "36inch",
+      "Baddest",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51627235410204,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "36S.1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51627235442972,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "36.S.4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51627235475740,
+        "title": "Baby Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "36.S.BABYB",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51627235508508,
+        "title": "Brown to Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "36.S.T227613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51627235541276,
+        "title": "Blonde to White",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "36.S.10360",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/D4F726D3-83A3-47AB-9DD6-6AEDAD525021.jpg?v=1744030280",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/37FD0AA5-E36F-4E8D-B56F-E0DC6A07D927.jpg?v=1744030370",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/D9CD1777-765C-4E21-A25E-34F4F4D678D4.jpg?v=1744030418",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5866.jpg?v=1744030476",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5868_7737d12e-84e3-4d2a-acf9-987b441814ab.jpg?v=1744030549",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/25F55FE7-1FE8-4F3A-B4E1-EFB6573945E2.jpg?v=1744031081",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/E855A429-6902-4E7E-8184-DBBBD939995B.png?v=1744077773",
+        "alt": "",
+        "position": 7
+      }
+    ],
+    "options": [
+      {
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Baby Blonde",
+          "Brown to Blonde",
+          "Blonde to White"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "sleek-stick": {
+    "id": 10118133023004,
+    "title": "Sleek Stick",
+    "handle": "sleek-stick",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-04-02T18:25:19+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-04-02T18:26:50+08:00",
+    "tags": [
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51596156797212,
+        "title": "Default Title",
+        "price": "21.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A1744259-2A01-4CDC-A41D-BAD04B3054CC.jpg?v=1743589612",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "marinate-hydration-mask": {
+    "id": 10118111592732,
+    "title": "Marinate Hydration Mask",
+    "handle": "marinate-hydration-mask",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-04-02T18:20:34+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-04-02T18:24:59+08:00",
+    "tags": [
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51596098175260,
+        "title": "Default Title",
+        "price": "35.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5577.jpg?v=1743589503",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5576.jpg?v=1743589503",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5575.jpg?v=1743589503",
+        "alt": "",
+        "position": 3
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "bb-detangle": {
+    "id": 10054096355612,
+    "title": "BB Detangle",
+    "handle": "bb-detangle",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-02-07T12:09:49+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-02-07T12:13:51+08:00",
+    "tags": [
+      "Hair Extensions",
+      "Ponytail",
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51213682475292,
+        "title": "Default Title",
+        "price": "32.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/3BD50673-E495-427B-8FF2-5A81054821B5.jpg?v=1743589185",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/B8DB26C4-9C99-41D3-903C-C8EB922FAAE1.jpg?v=1743589185",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/49DE99D9-8814-4BB9-8856-6CB91DB340EC.jpg?v=1743589185",
+        "alt": "",
+        "position": 3
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "manifest-growth-spray": {
+    "id": 10054091604252,
+    "title": "Manifest Growth Spray",
+    "handle": "manifest-growth-spray",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-02-07T12:06:06+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-02-07T12:09:35+08:00",
+    "tags": [
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51213652623644,
+        "title": "Default Title",
+        "price": "31.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/6F249ED9-E6C3-4809-A752-44B42CC2D3CF.jpg?v=1743589209",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/3DBFFB8C-E607-49B8-B30D-58EC5D242080.jpg?v=1743589209",
+        "alt": "",
+        "position": 2
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "ponytail-bun": {
+    "id": 10016394674460,
+    "title": "Drawstring Bun",
+    "handle": "ponytail-bun",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2025-01-09T11:35:31+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-09T16:12:10+08:00",
+    "tags": [
+      "Buns",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 51019496882460,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51019496915228,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51019496947996,
+        "title": "Brown to Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 51019496980764,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51019497013532,
+        "title": "Brown to Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51019560550684,
+        "title": "Silver",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51025241080092,
+        "title": "Dark Red",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A1A920D5-031B-40A0-BA39-26D06AE1CC64.png?v=1744077790",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/buns.jpg?v=1744077790",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/472559193_908351368120588_314087842266374702_n.jpg?v=1744077790",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_1B.jpg?v=1744077790",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_4_86c258b0-f127-4198-a712-6aa51de86268.jpg?v=1744077790",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_1B_T30.jpg?v=1744077790",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_12_18.jpg?v=1744077790",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_10.jpg?v=1744077790",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_10_906.jpg?v=1744077790",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bun_GREY.jpg?v=1744077790",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_buns.jpg?v=1744077790",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/baddie_bun_updo.jpg?v=1744077790",
+        "alt": "",
+        "position": 12
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Brown to Light Brown",
+          "Sand Blonde",
+          "Brown to Blonde",
+          "Silver",
+          "Dark Red"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "clip-in-fringe": {
+    "id": 10009030721820,
+    "title": "Clip In Fringe",
+    "handle": "clip-in-fringe",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Clip In Extensions",
+    "created_at": "2025-01-03T07:19:38+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-06T14:53:50+08:00",
+    "tags": [
+      "Clip In",
+      "Fringe"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50977114685724,
+        "title": "Black",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977114718492,
+        "title": "Dark Brown",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977114751260,
+        "title": "Brown to Light Brown",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977114784028,
+        "title": "Sand Blonde",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977114816796,
+        "title": "Brown to Blonde",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clipinfringes.jpg?v=1744077058",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Effortless_bangs.jpg?v=1744077058",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_fringe_black.jpg?v=1736434929",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_fringe_dark_brown.jpg?v=1736434929",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_fringe_chocolate_brown.jpg?v=1736434929",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_fringe_sand_blonde.jpg?v=1736434929",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clip_in_fringe__champagne_blonde_b9384abf-301a-48b8-b9fd-5503dd88e51c.jpg?v=1736434929",
+        "alt": "",
+        "position": 7
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Brown to Light Brown",
+          "Sand Blonde",
+          "Brown to Blonde"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "straight-up-ponytail-20": {
+    "id": 10009148490012,
+    "title": "20” Straight Up Ponytail",
+    "handle": "straight-up-ponytail-20",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2025-01-03T13:39:46+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T15:41:49+08:00",
+    "tags": [
+      "20straight",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50978443297052,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443329820,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443362588,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443395356,
+        "title": "Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50978443428124,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50978443460892,
+        "title": "Brown Caramel",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443493660,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50978443526428,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443559196,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50978443591964,
+        "title": "Bleach Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443624732,
+        "title": "Blonde White",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443690268,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978443723036,
+        "title": "Auburn",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Straight_Up_Ponytail_20.jpg?v=1735890078",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/44BBED72-649B-401D-AD2A-136446F32555.png?v=1744033337",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/00B8DF81-F180-4A71-8055-D1B529C18330.png?v=1744033337",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/093713A9-A221-4333-BD8E-9CCD6F52B741.png?v=1744033337",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/34928CE1-8102-46A6-A58A-54CAC3790FAC.jpg?v=1744029055",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/3E7F3392-7D0D-4B2F-85D4-4E6D947A3668.jpg?v=1744029055",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/997F24A5-BE55-43E9-88A5-D7D202D5ECFF.jpg?v=1744029055",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A2EDE1A0-EC98-4BE8-9355-78FD57C3D541.jpg?v=1744029055",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/B32707BD-6787-4E47-895B-8D396ECA5828.jpg?v=1744033219",
+        "alt": "",
+        "position": 9
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Light Brown",
+          "Brown Light Brown",
+          "Brown Caramel",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Mixed Blonde",
+          "Bleach Blonde",
+          "Blonde White",
+          "Red",
+          "Auburn"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "i-m-so-wavy-ponytail-20": {
+    "id": 10009152717084,
+    "title": "20” I’m So Wavy Ponytail",
+    "handle": "i-m-so-wavy-ponytail-20",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2025-01-03T13:57:18+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T15:38:07+08:00",
+    "tags": [
+      "20wavy",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50978496282908,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496315676,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496348444,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496381212,
+        "title": "Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496413980,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496446748,
+        "title": "Brown Caramel",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496479516,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496512284,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496545052,
+        "title": "Bleach Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496577820,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496610588,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978496643356,
+        "title": "Black Silver",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/I_m_So_Wavy_Ponytail_20.jpg?v=1735889860",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/8810F90F-7F05-4962-8946-3A81320D9BED.jpg?v=1744026211",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/0F6953AA-E02C-45B5-B59B-6FB7540D3827.jpg?v=1744026211",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/2EB32419-6A92-46E9-A7CA-39B28D4692DB.jpg?v=1744026211",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/7641C177-BF2F-45FC-B92E-ABEC30D1414E.jpg?v=1744026211",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/47B2BA16-F582-4C1D-B1E4-397E336B77AB.jpg?v=1744026422",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/5C872C22-BD67-41E0-A962-EA810B8BCE9F.jpg?v=1744026499",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/20F9821E-BED8-4F23-9F5C-841AF4236A13.png?v=1744076796",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/6E91CE3D-E054-479C-BF42-36FC624711EE.png?v=1744076797",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/352D4729-8105-48FA-89EC-F9DD869A3993.png?v=1744076797",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/2849C25F-43E0-4CFF-A89C-20E67397BC4C.png?v=1744076797",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/E56F137D-1E80-4730-BB99-16E1A420430B.png?v=1744076853",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/D8B17784-80F7-4320-8021-D9472E53F128.png?v=1744076853",
+        "alt": "",
+        "position": 13
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/962D9A01-223F-42EA-806D-1EEFBC81DD5D.png?v=1744076853",
+        "alt": "",
+        "position": 14
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/864F2754-30EC-4F8E-B148-31C4E28442C3.png?v=1744076924",
+        "alt": "",
+        "position": 15
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/F064A1C9-CF61-4674-97D4-407647D3387C.png?v=1744077026",
+        "alt": "",
+        "position": 16
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Light Brown",
+          "Brown Light Brown",
+          "Brown Caramel",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Bleach Blonde",
+          "Mixed Blonde",
+          "Red",
+          "Black Silver"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "boujee-curl-ponytail-20": {
+    "id": 10009150685468,
+    "title": "20” Boujee Curl Ponytail”",
+    "handle": "boujee-curl-ponytail-20",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2025-01-03T13:49:57+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T15:35:05+08:00",
+    "tags": [
+      "20curl",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50978488811804,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978488844572,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978488877340,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978488910108,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978488975644,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978489008412,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978489041180,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978489073948,
+        "title": "Beach Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50978489106716,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51627140841756,
+        "title": "Blonde to White",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51891792118044,
+        "title": "Light brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/8F8F76AF-E774-4974-84CC-FD58C99EEAFF.png?v=1744077582",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/39A1F82F-D363-4397-9CAD-89E14CAA3BE1.png?v=1744077582",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/11.png?v=1744077582",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/EFA8FA51-73E7-45DB-A056-DF8D41C18B7A.jpg?v=1744077582",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/F9BC4A96-805E-4845-A698-3510B1C57EC3.jpg?v=1744077582",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/3941E4B4-CC1A-4DF9-B350-E291C12559B6.jpg?v=1744077582",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/F8C38F5F-1D71-40D6-958E-FEFDBEE97410.jpg?v=1744077582",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FC3874C5-3127-4A48-9A5C-8687AEFE50C3.jpg?v=1744077582",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/31BF58E4-22BE-45A2-A437-DB94F2499671.jpg?v=1744077582",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/29FB0595-13BD-4016-8347-004DF385C656.jpg?v=1744077582",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A2AF33DE-655C-4FF6-9ED7-4DD9379A8CB2.jpg?v=1744077582",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/99C37462-EB4D-4683-B1AE-1BBF6C8AB786.jpg?v=1744077582",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/C1197C4A-03C8-46E8-97C2-5F6DE4880F35.png?v=1744077621",
+        "alt": "",
+        "position": 13
+      }
+    ],
+    "options": [
+      {
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Brown Light Brown",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Mixed Blonde",
+          "Beach Blonde",
+          "Red",
+          "Blonde to White",
+          "Light brown"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "annie-full-lace-wig-30": {
+    "id": 10009093603612,
+    "title": "Annie Full Lace Wig 30”",
+    "handle": "annie-full-lace-wig-30",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2025-01-03T10:21:12+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T10:26:20+08:00",
+    "tags": [
+      "Wig Care",
+      "Wigs"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50977768866076,
+        "title": "1. Black",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977768898844,
+        "title": "2. Dark Brown / Auburn",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977768931612,
+        "title": "3. Light Brown / Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977768964380,
+        "title": "Brown to Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977768997148,
+        "title": "5.Brown / Champagne Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_full_lace_wig.jpg?v=1735885210",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_black.jpg?v=1735885210",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_dark_brown-auburn.jpg?v=1735885210",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_light_brown-blonde.jpg?v=1735885210",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_champagne_blonde.jpg?v=1735885210",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_brown-champagne_blonde.jpg?v=1735885210",
+        "alt": "",
+        "position": 6
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "1. Black",
+          "2. Dark Brown / Auburn",
+          "3. Light Brown / Blonde",
+          "Brown to Blonde",
+          "5.Brown / Champagne Blonde"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "protective-ponytail-hanger": {
+    "id": 10009046647068,
+    "title": "Protective Ponytail Hanger",
+    "handle": "protective-ponytail-hanger",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Protective Hanger",
+    "created_at": "2025-01-03T07:35:02+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T07:39:34+08:00",
+    "tags": [
+      "Hanger Bag",
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50977145717020,
+        "title": "Default Title",
+        "price": "20.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/39296548-1CBC-4718-BAC1-907473DCE1A1.png?v=1744077216",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A1FA4DBC-A600-492D-A1EE-DD19F34968AE.png?v=1744077492",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/9A967E28-6705-4BE2-A7F2-620CB6596709.png?v=1744077492",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/0AA7F55C-BC11-4789-8088-C2F5AEF3BE14.png?v=1744077492",
+        "alt": "",
+        "position": 4
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "bonny-full-lace-wig-26": {
+    "id": 10009008406812,
+    "title": "Bonny Full Lace Wig 26”",
+    "handle": "bonny-full-lace-wig-26",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Wigs",
+    "created_at": "2025-01-03T07:06:12+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2025-01-03T07:10:10+08:00",
+    "tags": [
+      "Wig Care",
+      "Wigs"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50977062322460,
+        "title": "1. Black",
+        "price": "100.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50977062355228,
+        "title": "3. Light Brown / Blonde",
+        "price": "100.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977062387996,
+        "title": "2. Dark Brown / Auburn",
+        "price": "100.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977062420764,
+        "title": "4. Brown / Blonde",
+        "price": "100.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50977062453532,
+        "title": "5.Brown / Champagne Blonde",
+        "price": "100.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_full_lace_wig.jpg?v=1735888333",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_black.jpg?v=1735888333",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_light_brown-blonde.jpg?v=1735888333",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_dark_brown-auburn.jpg?v=1735888333",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_brown-blonde.jpg?v=1735888333",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bonnie_brown-champagne_blonde.jpg?v=1735888333",
+        "alt": "",
+        "position": 6
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "1. Black",
+          "3. Light Brown / Blonde",
+          "2. Dark Brown / Auburn",
+          "4. Brown / Blonde",
+          "5.Brown / Champagne Blonde"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "smooth-me-brush": {
+    "id": 9981407363356,
+    "title": "Smooth me Brush",
+    "handle": "smooth-me-brush",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-12-06T09:50:45+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-12-06T09:52:20+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 50798587052316,
+        "title": "Default Title",
+        "price": "28.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/5DD054B7-5B72-411B-BC61-75C2DD730E06.jpg?v=1733449944",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "bad-boujee-silk-protective-bag": {
+    "id": 9973998092572,
+    "title": "Bad & Boujee Silk Protective Bag",
+    "handle": "bad-boujee-silk-protective-bag",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Silk Bag",
+    "created_at": "2024-11-27T14:56:06+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-27T18:50:15+08:00",
+    "tags": [
+      "Silk",
+      "Wig Care"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50743024255260,
+        "title": "Default Title",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": "SILKBAG",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/995DDB09-A492-4964-888B-7CD963C8A666.png?v=1744078182",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Bad_BoujeeSilkProtectiveBag.jpg?v=1744078182",
+        "alt": "",
+        "position": 2
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "untitled-oct23_11-32": {
+    "id": 9926392217884,
+    "title": "Touch Up Root Spray",
+    "handle": "untitled-oct23_11-32",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-10-23T11:32:07+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-27T13:53:02+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 50478104346908,
+        "title": "Black",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50478104379676,
+        "title": "Dark Brown",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50478104412444,
+        "title": "Light Brown",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_ea88770b-8d87-49b7-b024-d2fc88efe9eb.jpg?v=1729654492",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Light Brown"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "braided-ponytail": {
+    "id": 9970590712092,
+    "title": "32” Bad & Braided Ponytail",
+    "handle": "braided-ponytail",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-11-24T21:40:09+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-24T21:48:52+08:00",
+    "tags": [
+      "Braided",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50721034993948,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50721035026716,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50721035059484,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50721035092252,
+        "title": "Bleach Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50797974421788,
+        "title": "Pink",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "BRAIDPINK",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/8C6BC608-EF1C-4355-8B68-CF2B351EB5E8.jpg?v=1732456061",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/0E2D02CB-98E7-474C-A27C-52300F29EBC7.jpg?v=1732456083",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/396819DD-CC2C-450F-90EA-C6A096BF005E.jpg?v=1732456094",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/EDE3D9DD-D48C-4674-9E8B-9F62289A4FDB.jpg?v=1732456104",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/C2F04A5A-A9E0-4F6F-B86E-7E7CA36B3242.png?v=1732456135",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/pink_pony.webp?v=1733441158",
+        "alt": "",
+        "position": 6
+      }
+    ],
+    "options": [
+      {
+        "name": "Colours",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Sand Blonde",
+          "Bleach Blonde",
+          "Pink"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "untitled-nov21_10-37": {
+    "id": 9965740458268,
+    "title": "Sleek & Treat Wax Stick",
+    "handle": "untitled-nov21_10-37",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-11-21T10:37:30+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-21T10:58:44+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 50692396089628,
+        "title": "Default Title",
+        "price": "26.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_9bea4199-b2cb-466a-8cbb-9adb10224a7c.jpg?v=1732157900",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "the-snatched-brush": {
+    "id": 9965683179804,
+    "title": "The Snatched Brush",
+    "handle": "the-snatched-brush",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-11-21T09:49:37+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-21T09:52:13+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 50692079026460,
+        "title": "Default Title",
+        "price": "26.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_60e580c8-ccb2-4181-9bb1-f14a12765728.jpg?v=1732153936",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_e35b808e-39d8-4d68-9c8f-12892e863be3.jpg?v=1732153936",
+        "alt": "",
+        "position": 2
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "the-sleek-brush": {
+    "id": 9965676331292,
+    "title": "The Sleek Brush",
+    "handle": "the-sleek-brush",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "",
+    "created_at": "2024-11-21T09:41:36+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-21T09:42:49+08:00",
+    "tags": [],
+    "available": null,
+    "variants": [
+      {
+        "id": 50692024402204,
+        "title": "Default Title",
+        "price": "28.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_e1622ad0-df55-46f1-9c8f-be2716349160.jpg?v=1732153762",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_94556733-da3e-426b-bc95-198a19721bdd.jpg?v=1732153762",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_86de7374-8ceb-4cb3-977e-a0606d11bc55.jpg?v=1732153762",
+        "alt": "",
+        "position": 3
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "boujee-flick-14": {
+    "id": 9946839154972,
+    "title": "14” Flick Ponytail",
+    "handle": "boujee-flick-14",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2024-11-07T17:02:16+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-11-07T17:08:36+08:00",
+    "tags": [
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50593291731228,
+        "title": "Black",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "14.1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50593291763996,
+        "title": "Dark Brown",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "Flick4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50593291796764,
+        "title": "Sand Blonde",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "FlickK16",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50593291829532,
+        "title": "Mixed Blonde",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "Flick22H60",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50593291862300,
+        "title": "Bleach Blonde",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "Flick613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50593291895068,
+        "title": "Blonde to White",
+        "price": "60.00",
+        "compare_at_price": "0.00",
+        "sku": "Flick10360",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/CADDEB24-ED3E-49C7-B222-51152037906D.png?v=1746115531",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/49D5B6B8-5D7A-480E-A3F4-ABFDEDDB6180.png?v=1744077681",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/524F1935-656F-4C94-92C3-C26695EB828E.png?v=1744077681",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/6870CF2A-54C6-4ABC-8BDC-D49036651D53.png?v=1744077681",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/9F308F30-A7E0-483E-B809-9BFF6D9CAFE4.png?v=1744077681",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/BE59FBF0-1A86-4B8E-AB89-0DC3CBFDAF13.png?v=1744077681",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/AC4EBC9F-F2E9-44F7-84B1-ABB5960BE286.png?v=1744077681",
+        "alt": "",
+        "position": 7
+      }
+    ],
+    "options": [
+      {
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Sand Blonde",
+          "Mixed Blonde",
+          "Bleach Blonde",
+          "Blonde to White"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "bad-boujee-gift-cards": {
+    "id": 9892940742940,
+    "title": "Bad & Boujee Gift Cards",
+    "handle": "bad-boujee-gift-cards",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Gift Cards",
+    "created_at": "2024-10-14T18:03:41+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-10-14T18:03:41+08:00",
+    "tags": [
+      "Gift Cards"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50382560002332,
+        "title": "$70.00",
+        "price": "70.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50382560035100,
+        "title": "$90.00",
+        "price": "90.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50382560067868,
+        "title": "$110.00",
+        "price": "110.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50382560100636,
+        "title": "$200.00",
+        "price": "200.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/LogoPNG.png?v=1728899830",
+        "alt": "",
+        "position": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Denominations",
+        "position": 1,
+        "values": [
+          "$70.00",
+          "$90.00",
+          "$110.00",
+          "$200.00"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "bonnet": {
+    "id": 9845475180828,
+    "title": "Boujee Bonnet",
+    "handle": "bonnet",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Bonnet",
+    "created_at": "2024-10-09T15:58:22+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-10-09T15:58:22+08:00",
+    "tags": [
+      "Bonnet"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 50254394097948,
+        "title": "Pink",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": "PINKBON",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50254394130716,
+        "title": "Purple",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": "PURPBON",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50254394163484,
+        "title": "Silver",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": "SILBON",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50470073008412,
+        "title": "Black",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": "",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50470073041180,
+        "title": "Lilac",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50470073073948,
+        "title": "Hot Pink",
+        "price": "10.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/pink-bonnet_2a965f9b-84f1-48fa-a032-14090bec455d.jpg?v=1730508615",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/pink-bonnet.jpg?v=1730508455",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/dark-purple-bonnet.jpg?v=1730508522",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/silver-bonnet.jpg?v=1730508533",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black-bonnet.jpg?v=1730508545",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/lilac-bonnet.jpg?v=1730508560",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/hot-pink-bonnet.jpg?v=1730508585",
+        "alt": "",
+        "position": 7
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Pink",
+          "Purple",
+          "Silver",
+          "Black",
+          "Lilac",
+          "Hot Pink"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "boujee-curl": {
+    "id": 8135031980316,
+    "title": "28” Boujee Curl Ponytail",
+    "handle": "boujee-curl",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2023-03-02T18:07:47+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2024-05-21T19:50:58+08:00",
+    "tags": [
+      "28wavy",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 44711213072668,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPTd 1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49942355312924,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "28C.4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50494125211932,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "28C.6",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 51891798343964,
+        "title": "Light Brown",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPTg 10",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44711213105436,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPT- T1B30",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44711213138204,
+        "title": "Brown Caramel",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "28C.T227",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44711213203740,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPT-T227613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44711213170972,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "28C.",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49700267229468,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPT 22H60",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50349098598684,
+        "title": "Beach Blonde",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "28.C. 613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44791337419036,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": "80.00",
+        "sku": "CYPT - T1BBUG",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Boujee_Curl_Ponytail_28.jpg?v=1735889677",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black1B.jpg?v=1735889677",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/dark_brown_4_b5bb9340-90d9-4ed2-9d32-3146deb170be.jpg?v=1735889677",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/chocolate_brown_6.jpg?v=1735889677",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_light_brown_t1b30.jpg?v=1735889677",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_caramel_t1b27.jpg?v=1735889677",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_blonde_t227613.jpg?v=1735889677",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/sand_blonde_K16.jpg?v=1735889677",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/mixedblonde.jpg?v=1735889677",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/beach_blonde_Sp613_k16.jpg?v=1735889677",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/red_T1bbug.jpg?v=1735889677",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/BOUJEE_CURL_COLOURS.jpg?v=1735889677",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/CHOC_BROWN_6.jpg?v=1735889677",
+        "alt": "",
+        "position": 13
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/DARK_BROWN_4.jpg?v=1735889677",
+        "alt": "",
+        "position": 14
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Screenshot_22-10-2024_14845_www.instagram.com.jpg?v=1735889677",
+        "alt": "",
+        "position": 15
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/SANDBLONDE_--K16.jpg?v=1735889677",
+        "alt": "",
+        "position": 16
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Screenshot_22-10-2024_14210_www.instagram.com.jpg?v=1735889677",
+        "alt": "",
+        "position": 17
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/20240623_043940514_iOS_ff0cdf65-e270-42b7-acd1-28c2c5af9c6a.jpg?v=1735889677",
+        "alt": "",
+        "position": 18
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/DARK_BROWN_TO_LIGHT_BROWN_T1B_30.jpg?v=1735889677",
+        "alt": "",
+        "position": 19
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/20240621_030421795_iOS.jpg?v=1735889677",
+        "alt": "",
+        "position": 20
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/products/image_ef160b9e-8816-416b-8e04-ffef454620ec.jpg?v=1735889677",
+        "alt": "",
+        "position": 21
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/11.png?v=1744077582",
+        "alt": "",
+        "position": 22
+      }
+    ],
+    "options": [
+      {
+        "name": "Colour",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Light Brown",
+          "Brown Light Brown",
+          "Brown Caramel",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Mixed Blonde",
+          "Beach Blonde",
+          "Red"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "human-hair-clip-ins-20": {
+    "id": 8135032275228,
+    "title": "24” Lux Clip In Set Straight",
+    "handle": "human-hair-clip-ins-20",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Clip In Extensions",
+    "created_at": "2023-03-02T18:08:15+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2023-03-26T13:26:33+08:00",
+    "tags": [
+      "Clip In",
+      "Hair Extensions"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 44756676378908,
+        "title": "Black",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49583738421532,
+        "title": "Dark Brown",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49583738454300,
+        "title": "Choc Brown",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.6",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49583738487068,
+        "title": "Light Brown",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.10",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49583738519836,
+        "title": "Sand Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.K16",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49709889847580,
+        "title": "Bleach Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CL.613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689274652,
+        "title": "Mixed Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.22H60",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689307420,
+        "title": "DarkBrown / Caramel",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.T227",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689340188,
+        "title": "Dark Brown / Bleach Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.4.613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689372956,
+        "title": "Copper / Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.350.613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689405724,
+        "title": "Ash Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24.ASHB",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689438492,
+        "title": "Brown / Copper",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24.BRWN COP",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689471260,
+        "title": "Brown Ombre",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY-T1B30",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689504028,
+        "title": "Blonde / white",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "27- 10360",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477689536796,
+        "title": "Toffee",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "28TOFFEE",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477700940060,
+        "title": "Browns / Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.T227613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477700972828,
+        "title": "Baby Blondee",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.BABYB",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477701005596,
+        "title": "Champ Blonde",
+        "price": "100.00",
+        "compare_at_price": null,
+        "sku": "24CY.CHAMP",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_1B_490d0f93-5b86-4498-8add-fa43e0484307.jpg?v=1730511618",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_1B_variation.jpg?v=1730511198",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/4.jpg?v=1730509842",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/6.jpg?v=1730509864",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/10.jpg?v=1730509877",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/K16.jpg?v=1730509892",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/613.jpg?v=1730509905",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/22H60.jpg?v=1730509922",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/P427.jpg?v=1730509937",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/P6_613.jpg?v=1730509960",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/P27_613.jpg?v=1730509995",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/SP613_K16.jpg?v=1730510013",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/SP4_27.jpg?v=1730510030",
+        "alt": "",
+        "position": 13
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/T27_613.jpg?v=1730510108",
+        "alt": "",
+        "position": 14
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/T103_60.jpg?v=1730510143",
+        "alt": "",
+        "position": 15
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/TOFFEE.jpg?v=1730510156",
+        "alt": "",
+        "position": 16
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/T2_27_613.jpg?v=1730510173",
+        "alt": "",
+        "position": 17
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/baby_blonde.jpg?v=1730510190",
+        "alt": "",
+        "position": 18
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/champagne_blonde.jpg?v=1730510206",
+        "alt": "",
+        "position": 19
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Choc Brown",
+          "Light Brown",
+          "Sand Blonde",
+          "Bleach Blonde",
+          "Mixed Blonde",
+          "DarkBrown / Caramel",
+          "Dark Brown / Bleach Blonde",
+          "Copper / Blonde",
+          "Ash Blonde",
+          "Brown / Copper",
+          "Brown Ombre",
+          "Blonde / white",
+          "Toffee",
+          "Browns / Blonde",
+          "Baby Blondee",
+          "Champ Blonde"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "straight-up-ponytail-28": {
+    "id": 8135032733980,
+    "title": "28” Straight Up Ponytail",
+    "handle": "straight-up-ponytail-28",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2023-03-02T18:08:52+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2023-03-02T18:08:42+08:00",
+    "tags": [
+      "28straight",
+      "Hair Extensions",
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 44710594511132,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594576668,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 48603984757020,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.6",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 48603984724252,
+        "title": "Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28S.10",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594609436,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.T1B30",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594642204,
+        "title": "Brown Caramel",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.T227",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594707740,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.T227613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594674972,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.K16",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 48604004516124,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28S.22H60",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594740508,
+        "title": "Bleach Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50547217629468,
+        "title": "Blonde White",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50547221627164,
+        "title": "Baby Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50240895648028,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.T1BBUG",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 46101648212252,
+        "title": "Auburn",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28S.350",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49700302487836,
+        "title": "Pink White",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.PINKWHITE",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49700302520604,
+        "title": "Black Silver",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.SILVR",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44710594773276,
+        "title": "Grey Blonde",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.T1B/613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477912719644,
+        "title": "Caramel",
+        "price": "80.00",
+        "compare_at_price": null,
+        "sku": "28Y.F27",
+        "inventory_quantity": null,
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Straight_Up_Ponytail_28.jpg?v=1735890078",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_1B.jpg?v=1735890078",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/dark_brown_4_0e23616f-6ce4-42b3-a35c-c682c91becb4.jpg?v=1735890078",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/chocolate_brown_6_fd689cff-7638-4f20-97cb-93f665300731.jpg?v=1735890078",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/light_brown_10.jpg?v=1735890078",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_light_brown_T1B30_e0fb1435-62cb-422a-bcca-72340c50f625.jpg?v=1735890078",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_caramel_t227.jpg?v=1735890078",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_blonde_t227613_c4a1eb95-5aa1-4e09-aa3b-45ca6b20cc37.jpg?v=1735890078",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/sand_blonde_k16_2cc8a881-c25c-4f7b-9a31-76d6ca4d6ac4.jpg?v=1735890078",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/mixed_blondes_22h60.jpg?v=1735890078",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/bleach_blonde_613_8fb64dbf-8076-49e8-a093-ee0d50ce7067.jpg?v=1735890078",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/blonde_white.jpg?v=1735890078",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/baby_blonde_eda5fc7f-5c25-4be7-933f-411fca24e695.jpg?v=1735890078",
+        "alt": "",
+        "position": 13
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/red_t1bbug_724c8664-7096-410f-8e2f-3cc7b090479e.jpg?v=1735890078",
+        "alt": "",
+        "position": 14
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/auburn_350.jpg?v=1735890078",
+        "alt": "",
+        "position": 15
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/pink_white.jpg?v=1735890078",
+        "alt": "",
+        "position": 16
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_silver.jpg?v=1735890078",
+        "alt": "",
+        "position": 17
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/grey_blonde_613.jpg?v=1735890078",
+        "alt": "",
+        "position": 18
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/caramel_F2716.jpg?v=1735890078",
+        "alt": "",
+        "position": 19
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/4AC8466D-804A-448B-B554-F91D78E3DA2B.jpg?v=1735890078",
+        "alt": "",
+        "position": 20
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_0ce3d1f5-702a-42fe-af3d-9989a3444659.jpg?v=1735890078",
+        "alt": "",
+        "position": 21
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/676E4487-7C6C-4BB1-829C-70353AC76E17.jpg?v=1735890078",
+        "alt": "",
+        "position": 22
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A9A3AC7D-3B6F-4194-85FE-30525434EAA7.jpg?v=1735890078",
+        "alt": "",
+        "position": 23
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/D25E1DB8-DC06-4FFF-8422-A79ED53CE93D.jpg?v=1735890078",
+        "alt": "",
+        "position": 24
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A8B93F85-25FB-4D92-96CA-72F8D8D771E1.jpg?v=1735890078",
+        "alt": "",
+        "position": 25
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/E317EB3F-43C9-4B7D-BBAC-6A7DD260392C.jpg?v=1735890078",
+        "alt": "",
+        "position": 26
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/1CFC5F2F-9A16-4C7A-8F7F-E32188214F3E.png?v=1735890078",
+        "alt": "",
+        "position": 27
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Light Brown",
+          "Brown Light Brown",
+          "Brown Caramel",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Mixed Blonde",
+          "Bleach Blonde",
+          "Blonde White",
+          "Baby Blonde",
+          "Red",
+          "Auburn",
+          "Pink White",
+          "Black Silver",
+          "Grey Blonde",
+          "Caramel"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  },
+  "i-m-so-wavy-ponytail-28": {
+    "id": 8135032373532,
+    "title": "28” I’m So Wavy Ponytail",
+    "handle": "i-m-so-wavy-ponytail-28",
+    "description": "",
+    "vendor": "Bad&BoujeeHair",
+    "product_type": "Ponytail Extension",
+    "created_at": "2023-03-02T18:08:24+08:00",
+    "updated_at": "2025-06-21T10:31:34+08:00",
+    "published_at": "2023-03-02T18:08:16+08:00",
+    "tags": [
+      "Ponytail"
+    ],
+    "available": null,
+    "variants": [
+      {
+        "id": 48603888255260,
+        "title": "Black",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "Wavy #1B",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49824424722716,
+        "title": "Dark Brown",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "Wavy #4",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477420544284,
+        "title": "Chocolate Brown",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-6",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 49824424755484,
+        "title": "Light Brown",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-10",
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 44790977888540,
+        "title": "Brown Light Brown",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-T1B30",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44790977921308,
+        "title": "Brown Caramel",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-T227",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44791175774492,
+        "title": "Brown Blonde",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "28W.T227613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44791175807260,
+        "title": "Sand Blonde",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "28W.K16",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477502791964,
+        "title": "Bleach Blonde",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-613",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50559877480732,
+        "title": "Mixed Blonde",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": null,
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 44791321854236,
+        "title": "Red",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-T1BBUG",
+        "inventory_quantity": null,
+        "available": true
+      },
+      {
+        "id": 50477420577052,
+        "title": "Black Silver",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-BLACKSILVER",
+        "inventory_quantity": null,
+        "available": false
+      },
+      {
+        "id": 50478015021340,
+        "title": "Auburn",
+        "price": "80.00",
+        "compare_at_price": "0.00",
+        "sku": "WVPT-350",
+        "inventory_quantity": null,
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/I_m_So_Wavy_Ponytail_28.jpg?v=1735889860",
+        "alt": "",
+        "position": 1
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_1_wavy_1B.jpg?v=1735889860",
+        "alt": "",
+        "position": 2
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/dark_brown_4_wavy_4.jpg?v=1735889860",
+        "alt": "",
+        "position": 3
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/chocolate_brown_6_WVPT-3.jpg?v=1735889860",
+        "alt": "",
+        "position": 4
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/light_brown_10_WVPT-4.jpg?v=1735889860",
+        "alt": "",
+        "position": 5
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_light_brown_T1B30_WVPT-3.jpg?v=1735889860",
+        "alt": "",
+        "position": 6
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_caramel_T227_WVPT-4.jpg?v=1735889860",
+        "alt": "",
+        "position": 7
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/brown_blonde_T227613_70e98ad9-faac-4c88-b832-61b1f13250a8.jpg?v=1735889860",
+        "alt": "",
+        "position": 8
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/sand_blonde.jpg?v=1735889860",
+        "alt": "",
+        "position": 9
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/bleach_blonde_613.jpg?v=1735889860",
+        "alt": "",
+        "position": 10
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/mixed_blonde.jpg?v=1735889860",
+        "alt": "",
+        "position": 11
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/red_t1bug.jpg?v=1735889860",
+        "alt": "",
+        "position": 12
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_silver_wvpt-4.jpg?v=1735889860",
+        "alt": "",
+        "position": 13
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/auburn_350_wavy.jpg?v=1735889860",
+        "alt": "",
+        "position": 14
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/09316711-60D4-4C56-A8E1-95166A5F14A4.jpg?v=1735889860",
+        "alt": "",
+        "position": 15
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/8.png?v=1735889860",
+        "alt": "",
+        "position": 16
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/B80E0E08-57F5-4EF1-AD84-E745AC1DC311.jpg?v=1735889860",
+        "alt": "",
+        "position": 17
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/39E309A3-5E04-4AE4-AFF4-2CFEEE790C58.jpg?v=1735889860",
+        "alt": "",
+        "position": 18
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/FullSizeRender_f7cf7e56-1300-4ade-87a7-03a4e05f1afe.jpg?v=1735889860",
+        "alt": "",
+        "position": 19
+      }
+    ],
+    "options": [
+      {
+        "name": "Color",
+        "position": 1,
+        "values": [
+          "Black",
+          "Dark Brown",
+          "Chocolate Brown",
+          "Light Brown",
+          "Brown Light Brown",
+          "Brown Caramel",
+          "Brown Blonde",
+          "Sand Blonde",
+          "Bleach Blonde",
+          "Mixed Blonde",
+          "Red",
+          "Black Silver",
+          "Auburn"
+        ]
+      }
+    ],
+    "enhanced_description": "Premium quality hair extension from Bad Boujee Hair. Our products are designed for busy women who want to look fabulous without spending hours on their hair.",
+    "features": [
+      "Premium quality materials",
+      "Easy to apply and style",
+      "Heat resistant up to 180°C",
+      "Natural looking finish",
+      "Long-lasting durability"
+    ],
+    "care_instructions": [
+      "Brush gently with wide-tooth comb",
+      "Wash with sulfate-free shampoo",
+      "Air dry when possible",
+      "Store properly when not in use",
+      "Avoid excessive heat styling"
+    ],
+    "shipping_info": {
+      "free_shipping_over": 100,
+      "estimated_delivery": "2-3 business days",
+      "express_available": true
+    }
+  }
+}
