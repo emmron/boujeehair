@@ -36,11 +36,12 @@ const Header = () => {
   return (
     <>
       {/* Top Banner */}
-      <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 text-center text-sm">
-        <div className="flex items-center justify-center space-x-4">
-          <Star className="h-4 w-4" />
-          <span>FREE shipping on orders over $100 AUD</span>
-          <Star className="h-4 w-4" />
+      <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 text-center text-sm overflow-hidden relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 -translate-x-full animate-slide-in-right"></div>
+        <div className="flex items-center justify-center space-x-4 relative z-10">
+          <Star className="h-4 w-4 animate-pulse-pink" />
+          <span className="font-medium">FREE shipping on orders over $100 AUD ✨</span>
+          <Star className="h-4 w-4 animate-pulse-pink" />
         </div>
       </div>
       
@@ -53,11 +54,12 @@ const Header = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex-shrink-0 animate-fade-in group">
-              <h1 className="text-3xl font-bold cursor-pointer transition-transform duration-300 group-hover:scale-105">
+              <h1 className="text-2xl md:text-3xl font-bold cursor-pointer transition-all duration-300 group-hover:scale-105 interactive-scale">
                 <span className="text-gray-800">Bad &</span>
-                <span className="text-gradient-pink"> Boujee</span>
+                <span className="text-gradient-pink animate-gradient bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"> Boujee</span>
                 <span className="text-gray-800"> Hair</span>
               </h1>
+              <div className="h-0.5 w-0 group-hover:w-full bg-gradient-pink transition-all duration-500 ease-out"></div>
             </div>
 
           {/* Desktop Navigation */}
@@ -83,32 +85,36 @@ const Header = () => {
           {/* Desktop Icons */}
           <div className="hidden md:flex items-center space-x-2">
             <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
-                             rounded-full transition-all duration-300 hover:scale-110 group">
+                             rounded-full transition-all duration-300 hover:scale-110 group interactive-scale
+                             hover:shadow-pink">
               <Search className="h-5 w-5 group-hover:rotate-12 transition-transform" />
             </button>
             <button className="p-3 text-gray-600 hover:text-red-500 hover:bg-red-50 
-                             rounded-full transition-all duration-300 hover:scale-110 group">
-              <Heart className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                             rounded-full transition-all duration-300 hover:scale-110 group interactive-scale
+                             hover:shadow-lg">
+              <Heart className="h-5 w-5 group-hover:scale-110 group-hover:animate-wobble transition-transform" />
             </button>
             <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
-                             rounded-full transition-all duration-300 hover:scale-110">
+                             rounded-full transition-all duration-300 hover:scale-110 interactive-scale
+                             hover:shadow-pink">
               <User className="h-5 w-5" />
             </button>
             <button 
               onClick={openCart}
               className="relative p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
-                       rounded-full transition-all duration-300 hover:scale-110 group"
+                       rounded-full transition-all duration-300 hover:scale-110 group interactive-scale
+                       hover:shadow-pink"
             >
               <ShoppingBag className="h-5 w-5 group-hover:rotate-12 transition-transform" />
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 text-white text-xs 
                                rounded-full h-6 w-6 flex items-center justify-center font-semibold
-                               animate-pulse bg-gradient-to-r from-pink-500 to-purple-600 shadow-lg">
+                               animate-scale-bounce bg-gradient-to-r from-pink-500 to-purple-600 shadow-pink-lg">
                   {totalItems}
                 </span>
               )}
             </button>
-            <Button size="sm" className="ml-2">
+            <Button size="sm" className="ml-2 animate-pulse-pink hover:animate-wobble">
               Book Now
             </Button>
           </div>
@@ -116,18 +122,19 @@ const Header = () => {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
             <button className="p-2 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
-                             rounded-full transition-all duration-300">
+                             rounded-full transition-all duration-300 interactive-scale hover:shadow-pink">
               <Search className="h-5 w-5" />
             </button>
             <button 
               onClick={openCart}
               className="relative p-2 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
-                       rounded-full transition-all duration-300"
+                       rounded-full transition-all duration-300 interactive-scale hover:shadow-pink"
             >
               <ShoppingBag className="h-5 w-5" />
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 text-white text-xs 
-                               rounded-full h-5 w-5 flex items-center justify-center font-semibold"
+                               rounded-full h-5 w-5 flex items-center justify-center font-semibold
+                               animate-scale-bounce shadow-pink-lg"
                       style={{ background: 'var(--gradient-pink)' }}>
                   {totalItems}
                 </span>
@@ -136,10 +143,11 @@ const Header = () => {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
-                       rounded-full transition-all duration-300"
+                       rounded-full transition-all duration-300 interactive-scale hover:shadow-pink
+                       hover:rotate-180"
             >
               {isMenuOpen ? (
-                <X className="h-6 w-6" />
+                <X className="h-6 w-6 animate-rotate-slow" />
               ) : (
                 <Menu className="h-6 w-6" />
               )}
@@ -151,25 +159,27 @@ const Header = () => {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="lg:hidden animate-slide-up">
-          <div className="px-4 pt-4 pb-6 space-y-2 bg-white/95 backdrop-blur-sm border-t border-pink-100">
+          <div className="px-4 pt-4 pb-6 space-y-2 bg-white/95 backdrop-blur-md border-t border-pink-100 shadow-pink-lg">
             {navigation.map((item, index) => (
               <a
                 key={item.name}
                 href={item.href}
                 className="flex items-center text-gray-700 hover:text-primary-pink hover:bg-light-pink 
-                         px-4 py-3 text-base font-medium transition-all duration-300 rounded-xl"
+                         px-4 py-3 text-base font-medium transition-all duration-300 rounded-xl
+                         interactive-scale hover:shadow-soft animate-fade-in border-gradient-pink
+                         hover:border-pink-200"
                 onClick={() => setIsMenuOpen(false)}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                {item.name}
+                <span className="animate-slide-in-left">{item.name}</span>
               </a>
             ))}
             <div className="pt-4 mt-4 border-t border-pink-100 space-y-3">
-              <Button className="w-full">
-                Shop Now
+              <Button className="w-full animate-pulse-pink hover:animate-wobble">
+                Shop Now 🛍️
               </Button>
-              <Button variant="secondary" className="w-full">
-                Book Appointment
+              <Button variant="secondary" className="w-full interactive-scale hover:shadow-pink">
+                Book Appointment 💅
               </Button>
             </div>
           </div>

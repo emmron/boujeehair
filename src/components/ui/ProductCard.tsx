@@ -41,26 +41,26 @@ const ProductCard = ({
   return (
     <Card 
       variant="elevated" 
-      className={cn("group overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl", className)}
+      className={cn("group overflow-hidden transform transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl interactive-scale hover:shadow-pink-xl relative", className)}
       {...props}
     >
       <div className="relative overflow-hidden bg-gradient-to-br from-gray-50 to-white">
         {/* Product Badge */}
         {badge && (
-          <div className="absolute top-3 left-3 z-10 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg animate-pulse">
-            {badge}
+          <div className="absolute top-3 left-3 z-10 bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-pink-lg animate-scale-bounce">
+            {badge} ✨
           </div>
         )}
         
         {/* Like Button */}
         <button
           onClick={() => setIsLiked(!isLiked)}
-          className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-sm hover:bg-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-125 group/heart"
+          className="absolute top-3 right-3 z-10 bg-white/95 backdrop-blur-sm hover:bg-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-125 group/heart interactive-scale hover:shadow-pink animate-pulse-pink"
         >
           <Heart 
             className={cn(
-              "h-5 w-5 transition-all duration-300 group-hover/heart:scale-110",
-              isLiked ? "text-red-500 fill-current animate-pulse" : "text-gray-600 hover:text-red-400"
+              "h-5 w-5 transition-all duration-300 group-hover/heart:scale-110 group-hover/heart:animate-wobble",
+              isLiked ? "text-red-500 fill-current animate-scale-bounce" : "text-gray-600 hover:text-red-400"
             )} 
           />
         </button>
@@ -155,29 +155,37 @@ const ProductCard = ({
         <div className="space-y-3">
           <Button
             onClick={() => onAddToCart?.(product)}
-            className="w-full transform transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+            className="w-full transform transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-pink-xl interactive-scale animate-pulse-pink hover:animate-wobble"
           >
-            <ShoppingCart className="h-4 w-4 mr-2" />
-            Add to Cart
+            <ShoppingCart className="h-4 w-4 mr-2 animate-bounce" />
+            Add to Cart 🛍️
           </Button>
           
           {/* Quick Features */}
           <div className="flex items-center justify-between text-xs text-gray-500">
             <span className="flex items-center">
-              <div className="w-2 h-2 bg-green-400 rounded-full mr-1 animate-pulse" />
-              In Stock
+              <div className="w-2 h-2 bg-green-400 rounded-full mr-1 animate-scale-bounce" />
+              In Stock ✅
             </span>
-            <span>✓ 30-day returns</span>
-            <span>⚡ Fast delivery</span>
+            <span className="hover:text-pink-500 transition-colors">✓ 30-day returns</span>
+            <span className="hover:text-purple-500 transition-colors">⚡ Fast delivery</span>
           </div>
         </div>
       </CardContent>
       
       {/* Hover Border Effect */}
       <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
-        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 p-[2px]">
+        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 p-[2px] animate-gradient">
           <div className="w-full h-full bg-white rounded-xl" />
         </div>
+      </div>
+      
+      {/* Floating Magic Sparkles */}
+      <div className="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-all duration-1000 pointer-events-none">
+        <div className="text-yellow-400 animate-float">✨</div>
+      </div>
+      <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-1000 pointer-events-none" style={{ animationDelay: '0.5s' }}>
+        <div className="text-pink-400 animate-float">💖</div>
       </div>
     </Card>
   );

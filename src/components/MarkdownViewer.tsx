@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Button from './ui/Button';
+import LoadingSpinner from './ui/LoadingSpinner';
+import ErrorBoundary from './ui/ErrorBoundary';
 
 interface MarkdownViewerProps {
   markdownFile?: string;
@@ -103,23 +105,53 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({
       {/* Content */}
       <div className="p-6 max-h-96 overflow-y-auto">
         {loading && (
-          <div className="flex items-center justify-center py-12">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-pink-500"></div>
-            <span className="ml-3 text-gray-600">Loading documentation...</span>
+          <div className="flex flex-col items-center justify-center py-12">
+            <LoadingSpinner size="lg" className="mb-4" />
+            <span className="text-gray-600 animate-fade-in">Loading documentation...</span>
+            <div className="mt-2 flex space-x-1">
+              <div className="w-2 h-2 bg-pink-400 rounded-full animate-bounce"></div>
+              <div className="w-2 h-2 bg-purple-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+              <div className="w-2 h-2 bg-pink-400 rounded-full animate-bounce" style={{ animationDelay: '0.4s' }}></div>
+            </div>
           </div>
         )}
 
         {error && (
-          <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-600">
-            {error}
+          <div className="bg-gradient-to-r from-red-50 to-pink-50 border border-red-200 rounded-lg p-6 text-center">
+            <div className="text-red-500 mb-2">❌</div>
+            <p className="text-red-600 font-medium mb-3">Unable to load documentation</p>
+            <p className="text-red-500 text-sm mb-4">{error}</p>
+            <Button
+              size="sm"
+              variant="secondary"
+              onClick={() => loadMarkdownContent(currentFile)}
+              className="interactive-scale hover:animate-wobble"
+            >
+              Try Again 🔄
+            </Button>
           </div>
         )}
 
         {!loading && !error && content && (
-          <div 
-            className="prose prose-pink max-w-none"
-            dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
-          />
+          <ErrorBoundary
+            fallback={
+              <div className="text-center py-12">
+                <p className="text-gray-600 mb-4">Error displaying content</p>
+                <Button
+                  onClick={() => loadMarkdownContent(currentFile)}
+                  size="sm"
+                  className="interactive-scale"
+                >
+                  Reload
+                </Button>
+              </div>
+            }
+          >
+            <div 
+              className="prose prose-pink max-w-none animate-fade-in"
+              dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }}
+            />
+          </ErrorBoundary>
         )}
       </div>
 
