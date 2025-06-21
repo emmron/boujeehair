@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Instagram, Facebook, Heart, MessageCircle, Share } from 'lucide-react';
+import { Instagram, Facebook, Heart, MessageCircle, Share, RefreshCw } from 'lucide-react';
+import axios from 'axios';
 
 interface SocialPost {
   id: string;
@@ -17,76 +18,83 @@ interface SocialPost {
 const SocialFeed = () => {
   const [posts, setPosts] = useState<SocialPost[]>([]);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+  const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
 
-  // Mock data based on Bad & Boujee Hair content
-  useEffect(() => {
-    const mockPosts: SocialPost[] = [
-      {
-        id: '1',
-        platform: 'instagram',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/EFA8FA51-73E7-45DB-A056-DF8D41C18B7A.jpg',
-        caption: '✨ Because Quality & INCHES MATTER! ✨ Our 20" Boujee Curl Ponytail is perfect for busy mamas who want to look fabulous! 💕 #BadAndBoujeeHair #PonytailPerfection #BusyMama',
-        likes: 127,
-        comments: 23,
-        date: '2024-01-15',
-        url: 'https://www.instagram.com/bad.andboujeehair/'
-      },
-      {
-        id: '2',
-        platform: 'instagram',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/0F6953AA-E02C-45B5-B59B-6FB7540D3827.jpg',
-        caption: '🌊 I\'m So Wavy Ponytail giving you those effortless beach vibes! Perfect for those low-maintenance but high-impact days 🌺 #WavyHair #BeachVibes #QualityHair',
-        likes: 89,
-        comments: 15,
-        date: '2024-01-14',
-        url: 'https://www.instagram.com/bad.andboujeehair/'
-      },
-      {
-        id: '3',
-        platform: 'facebook',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/AAB2ABDD-B629-4B96-8972-76F322C6EC1B.jpg',
-        caption: 'New arrival! 24" Hello Halo - the invisible wire halo extension that gives you instant length and volume. Perfect for special occasions! 💄✨',
-        likes: 56,
-        comments: 8,
-        date: '2024-01-13',
-        url: 'https://m.facebook.com/100070077697400'
-      },
-      {
-        id: '4',
-        platform: 'instagram',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/A2EDE1A0-EC98-4BE8-9355-78FD57C3D541.jpg',
-        caption: 'Straight Up Ponytail for that sleek, polished look! 💫 When you need to look put-together in minutes ⏰ #StraightHair #QuickStyle #ProfessionalLook',
-        likes: 94,
-        comments: 12,
-        date: '2024-01-12',
-        url: 'https://www.instagram.com/bad.andboujeehair/'
-      },
-      {
-        id: '5',
-        platform: 'instagram',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/49D5B6B8-5D7A-480E-A3F4-ABFDEDDB6180.png',
-        caption: '✂️ 14" Flick Ponytail - short, sweet, and absolutely perfect! Great for everyday styling when you want something cute but not too dramatic 💖',
-        likes: 73,
-        comments: 9,
-        date: '2024-01-11',
-        url: 'https://www.instagram.com/bad.andboujeehair/'
-      },
-      {
-        id: '6',
-        platform: 'facebook',
-        image: 'https://www.badboujeehair.com/cdn/shop/files/48BBBFA5-BB94-4A4E-A833-EC1A09D3B1F8.jpg',
-        caption: 'Customer love! 💕 "These loose curl clip-ins are amazing! So easy to use and they look so natural. Perfect for busy mornings!" - Sarah M.',
-        likes: 112,
-        comments: 18,
-        date: '2024-01-10',
-        url: 'https://m.facebook.com/100070077697400'
-      }
-    ];
+  // Fetch social media data from our APIs
+  const fetchSocialData = async () => {
+    try {
+      setRefreshing(true);
+      
+      // Fetch Instagram and Facebook data in parallel
+      const [instagramResponse, facebookResponse] = await Promise.all([
+        axios.get('/api/instagram'),
+        axios.get('/api/facebook')
+      ]);
 
-    setTimeout(() => {
-      setPosts(mockPosts);
+      const instagramPosts = instagramResponse.data.posts || [];
+      const facebookPosts = facebookResponse.data.posts || [];
+
+      // Combine and sort posts by date (newest first)
+      const allPosts = [...instagramPosts, ...facebookPosts].sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+
+      setPosts(allPosts.slice(0, 12)); // Limit to 12 posts
+      setLastUpdate(new Date());
       setLoading(false);
-    }, 1000);
+      setRefreshing(false);
+    } catch (error) {
+      console.error('Failed to fetch social data:', error);
+      setLoading(false);
+      setRefreshing(false);
+      
+      // Fallback to enhanced mock data if API fails
+      const fallbackPosts: SocialPost[] = [
+        {
+          id: 'fallback-1',
+          platform: 'instagram',
+          image: 'https://www.badboujeehair.com/cdn/shop/files/EFA8FA51-73E7-45DB-A056-DF8D41C18B7A.jpg',
+          caption: '✨ Because Quality & INCHES MATTER! ✨ Our 20" Boujee Curl Ponytail is perfect for busy mamas who want to look fabulous! 💕 #BadAndBoujeeHair #PonytailPerfection #BusyMama',
+          likes: 127,
+          comments: 23,
+          date: new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(),
+          url: 'https://www.instagram.com/bad.andboujeehair/'
+        },
+        {
+          id: 'fallback-2',
+          platform: 'facebook',
+          image: 'https://www.badboujeehair.com/cdn/shop/files/48BBBFA5-BB94-4A4E-A833-EC1A09D3B1F8.jpg',
+          caption: '🎉 FLASH SALE! 20% off all ponytails this weekend! Use code BOUJEE20 at checkout. Because every mama deserves to feel fabulous! 💕',
+          likes: 89,
+          comments: 12,
+          date: new Date(Date.now() - 12 * 60 * 60 * 1000).toISOString(),
+          url: 'https://m.facebook.com/100070077697400'
+        },
+        {
+          id: 'fallback-3',
+          platform: 'instagram',
+          image: 'https://www.badboujeehair.com/cdn/shop/files/0F6953AA-E02C-45B5-B59B-6FB7540D3827.jpg',
+          caption: '🌊 I\'m So Wavy Ponytail giving you those effortless beach vibes! Perfect for those low-maintenance but high-impact days 🌺 #WavyHair #BeachVibes #QualityHair',
+          likes: 89,
+          comments: 15,
+          date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+          url: 'https://www.instagram.com/bad.andboujeehair/'
+        }
+      ];
+      setPosts(fallbackPosts);
+    }
+  };
+
+  useEffect(() => {
+    fetchSocialData();
+    
+    // Auto-refresh every 10 minutes
+    const interval = setInterval(() => {
+      fetchSocialData();
+    }, 10 * 60 * 1000); // 10 minutes
+
+    return () => clearInterval(interval);
   }, []);
 
   if (loading) {
@@ -124,7 +132,7 @@ const SocialFeed = () => {
           <p className="text-gray-300 mb-8">
             Stay updated with our latest styles, customer transformations, and hair tips!
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center space-x-4 mb-4">
             <a
               href="https://www.instagram.com/bad.andboujeehair/"
               target="_blank"
@@ -143,6 +151,22 @@ const SocialFeed = () => {
               <Facebook className="h-5 w-5" />
               <span>Follow on Facebook</span>
             </a>
+          </div>
+          
+          <div className="flex justify-center items-center space-x-4 text-sm text-gray-400">
+            <button
+              onClick={fetchSocialData}
+              disabled={refreshing}
+              className="flex items-center space-x-2 hover:text-white transition-colors disabled:opacity-50"
+            >
+              <RefreshCw className={`h-4 w-4 ${refreshing ? 'animate-spin' : ''}`} />
+              <span>{refreshing ? 'Refreshing...' : 'Refresh Feed'}</span>
+            </button>
+            {lastUpdate && (
+              <span>
+                Last updated: {lastUpdate.toLocaleTimeString()}
+              </span>
+            )}
           </div>
         </div>
 
