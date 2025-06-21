@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
 
 import { useState } from 'react';
 import { Calendar, MapPin, Clock, Star, Phone, Mail } from 'lucide-react';
