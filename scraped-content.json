@@ -1,9 +1,38 @@
 {
-  "total": 21,
-  "categories": {
-    "products": 0,
-    "general": 21
+  "site": {
+    "name": "Bad&BoujeeHairAmerican ExpressApple PayGoogle PayMastercardPayPalShop PayUnion PayVisa",
+    "description": "",
+    "tagline": ""
   },
+  "products": [],
+  "categories": [
+    {
+      "name": "Collection",
+      "description": "",
+      "url": "/collections/all"
+    },
+    {
+      "name": "Collection",
+      "description": "Looking boujee and bad just got easier! Get ready to switch up your style game with Premium Ponytails for a look that's sassy, stylish, and easy on the wallet. #badandboujee #synthetichair",
+      "url": "/collections/ponytails"
+    },
+    {
+      "name": "Collection",
+      "description": "Get the luxurious accessories you've always wanted without the price tag. Shop hair brushes, boujee bonnets, durags and more.",
+      "url": "/collections/accessories"
+    },
+    {
+      "name": "Collection",
+      "description": "Keep your ponytail, wig or hair extensions looking better than ever. Shop our range of hair care products, styling and protective bags.",
+      "url": "/collections/hair-care"
+    },
+    {
+      "name": "All collections",
+      "description": "",
+      "url": "/products"
+    }
+  ],
+  "pages": [],
   "images": [
     {
       "src": "https://www.badboujeehair.com//www.badboujeehair.com/cdn/shop/files/bad-boujee-logo_300x300.png?v=1730193692",
@@ -110,5 +139,11 @@
       "alt": "Ponytail Install & Style Appointment",
       "context": "general"
     }
-  ]
+  ],
+  "content": {
+    "hero": [],
+    "testimonials": [],
+    "features": [],
+    "aboutUs": ""
+  }
 }

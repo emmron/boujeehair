@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { useState } from 'react';
-import { Calendar, MapPin, Clock, Star, Phone, Mail } from 'lucide-react';
+import { Calendar, MapPin, Clock, Star, Phone, Mail, Heart } from 'lucide-react';
 import BookingCalendar from './BookingCalendar';
 import { Card, CardContent } from './ui/Card';
 import Button from './ui/Button';
@@ -59,23 +59,31 @@ const BookingSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-light relative overflow-hidden">
-      {/* Background Decoration */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 right-10 w-32 h-32 rounded-full" style={{ background: 'var(--gradient-pink)' }}></div>
-        <div className="absolute bottom-20 left-10 w-40 h-40 rounded-full" style={{ background: 'var(--gradient-pink)' }}></div>
+    <section className="py-32 bg-gradient-to-br from-pink-50 via-white to-purple-50 relative overflow-hidden">
+      {/* Enhanced Background Decoration */}
+      <div className="absolute inset-0">
+        <div className="absolute top-20 right-10 w-40 h-40 rounded-full opacity-10 animate-float" style={{ background: 'var(--gradient-pink)' }}></div>
+        <div className="absolute bottom-20 left-10 w-48 h-48 rounded-full opacity-15 animate-float" style={{ background: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)', animationDelay: '2s' }}></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full opacity-5 animate-float" style={{ background: 'var(--gradient-pink)', animationDelay: '4s' }}></div>
+      </div>
+      
+      {/* Sparkle Effects */}
+      <div className="absolute inset-0 pointer-events-none">
+        <Star className="absolute top-32 left-20 text-pink-300 opacity-40 animate-bounce-gentle h-6 w-6" />
+        <Star className="absolute bottom-32 right-24 text-purple-300 opacity-30 animate-float h-5 w-5" style={{ animationDelay: '1s' }} />
+        <Heart className="absolute top-40 right-32 text-pink-400 opacity-35 animate-bounce-gentle h-7 w-7" style={{ animationDelay: '3s' }} />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         
-        {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in">
-          <div className="text-6xl mb-4">💇‍♀️</div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            <span className="text-gradient-pink">Professional</span> Hair Services
+        {/* Enhanced Section Header */}
+        <div className="text-center mb-20 animate-fade-in">
+          <div className="text-8xl mb-6 animate-bounce-gentle">💇‍♀️</div>
+          <h2 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 leading-tight">
+            <span className="text-gradient-pink animate-gradient">Professional</span> <span className="text-gradient-purple">Hair Services</span>
           </h2>
-          <div className="w-24 h-1 mx-auto mb-6 rounded-full" style={{ background: 'var(--gradient-pink)' }}></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <div className="w-32 h-2 mx-auto mb-8 rounded-full animate-gradient" style={{ background: 'linear-gradient(135deg, #ff6b9d 0%, #8b5cf6 100%)', backgroundSize: '200% 100%' }}></div>
+          <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-light">
             Let our expert stylists transform your look with professional extension application, 
             color matching, and maintenance services. Book your appointment today!
           </p>

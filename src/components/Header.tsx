@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Menu, X, ShoppingBag, Search, Heart } from 'lucide-react';
+import { Menu, X, ShoppingBag, Search, Heart, Star, User } from 'lucide-react';
 import { useCartStore } from '@/store/cartStore';
+import Button from './ui/Button';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,21 +34,31 @@ const Header = () => {
   ];
 
   return (
-    <header className={`sticky top-0 z-50 transition-all duration-300 ${
-      isScrolled 
-        ? 'glass-pink shadow-soft' 
-        : 'bg-white/95 backdrop-blur-sm'
-    }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="flex-shrink-0 animate-fade-in">
-            <h1 className="text-3xl font-bold cursor-pointer">
-              <span className="text-gray-800">Bad &</span>
-              <span className="text-gradient-pink"> Boujee</span>
-              <span className="text-gray-800"> Hair</span>
-            </h1>
-          </div>
+    <>
+      {/* Top Banner */}
+      <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 text-center text-sm">
+        <div className="flex items-center justify-center space-x-4">
+          <Star className="h-4 w-4" />
+          <span>FREE shipping on orders over $100 AUD</span>
+          <Star className="h-4 w-4" />
+        </div>
+      </div>
+      
+      <header className={`sticky top-0 z-50 transition-all duration-500 ${
+        isScrolled 
+          ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-pink-100' 
+          : 'bg-white/98 backdrop-blur-sm'
+      }`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <div className="flex-shrink-0 animate-fade-in group">
+              <h1 className="text-3xl font-bold cursor-pointer transition-transform duration-300 group-hover:scale-105">
+                <span className="text-gray-800">Bad &</span>
+                <span className="text-gradient-pink"> Boujee</span>
+                <span className="text-gray-800"> Hair</span>
+              </h1>
+            </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:block">
@@ -70,30 +81,36 @@ const Header = () => {
           </nav>
 
           {/* Desktop Icons */}
-          <div className="hidden md:flex items-center space-x-3">
-            <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
-                             rounded-full transition-all duration-300 hover:scale-110">
-              <Search className="h-5 w-5" />
+          <div className="hidden md:flex items-center space-x-2">
+            <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
+                             rounded-full transition-all duration-300 hover:scale-110 group">
+              <Search className="h-5 w-5 group-hover:rotate-12 transition-transform" />
             </button>
-            <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
+            <button className="p-3 text-gray-600 hover:text-red-500 hover:bg-red-50 
+                             rounded-full transition-all duration-300 hover:scale-110 group">
+              <Heart className="h-5 w-5 group-hover:scale-110 transition-transform" />
+            </button>
+            <button className="p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
                              rounded-full transition-all duration-300 hover:scale-110">
-              <Heart className="h-5 w-5" />
+              <User className="h-5 w-5" />
             </button>
             <button 
               onClick={openCart}
-              className="relative p-3 text-gray-600 hover:text-primary-pink hover:bg-light-pink 
-                       rounded-full transition-all duration-300 hover:scale-110"
+              className="relative p-3 text-gray-600 hover:text-primary-pink hover:bg-pink-50 
+                       rounded-full transition-all duration-300 hover:scale-110 group"
             >
-              <ShoppingBag className="h-5 w-5" />
+              <ShoppingBag className="h-5 w-5 group-hover:rotate-12 transition-transform" />
               {totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 text-white text-xs 
                                rounded-full h-6 w-6 flex items-center justify-center font-semibold
-                               animate-bounce-gentle"
-                      style={{ background: 'var(--gradient-pink)' }}>
+                               animate-pulse bg-gradient-to-r from-pink-500 to-purple-600 shadow-lg">
                   {totalItems}
                 </span>
               )}
             </button>
+            <Button size="sm" className="ml-2">
+              Book Now
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -147,15 +164,19 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <div className="pt-4 mt-4 border-t border-pink-100">
-              <button className="w-full btn-primary">
+            <div className="pt-4 mt-4 border-t border-pink-100 space-y-3">
+              <Button className="w-full">
                 Shop Now
-              </button>
+              </Button>
+              <Button variant="secondary" className="w-full">
+                Book Appointment
+              </Button>
             </div>
           </div>
         </div>
       )}
     </header>
+    </>
   );
 };
 

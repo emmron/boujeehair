@@ -22,129 +22,131 @@ export default function Home() {
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
+
+  // Real Bad Boujee Hair Products from Shopify API
   const ponytailProducts = [
-    {
-      id: 1,
-      name: "Luxe Ponytail Extension - Chocolate Brown",
-      price: "$85.00 AUD",
-      image: "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&q=80",
-      description: "Premium 22-inch chocolate brown ponytail made from 100% human hair. Heat resistant and tangle-free for effortless styling."
-    },
-    {
-      id: 2,
-      name: "Boujee Curl Ponytail - Honey Blonde",
-      price: "$90.00 AUD",
-      image: "https://images.unsplash.com/photo-1594736797933-d0201ba4fe65?w=400&q=80",
-      description: "Stunning curly ponytail in honey blonde. Perfect for adding instant volume and glamorous curls to any look."
-    },
-    {
-      id: 3,
-      name: "Beach Wave Ponytail - Caramel",
-      price: "$85.00 AUD",
-      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&q=80",
-      description: "Effortless beach waves in beautiful caramel shade. 20-inch length for natural-looking volume and texture."
-    },
-    {
-      id: 4,
-      name: "Straight Sleek Ponytail - Jet Black",
-      price: "$80.00 AUD",
-      image: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=400&q=80",
-      description: "Ultra-sleek straight ponytail in jet black. Professional quality for a polished, sophisticated appearance."
-    }
-  ];
-
-  const accessoryProducts = [
-    {
-      id: 5,
-      name: "Luxe Satin Hair Bonnet",
-      price: "$28.00 AUD",
-      image: "https://images.unsplash.com/photo-1509740318003-d4ad0d9eb045?w=400&q=80",
-      description: "Premium double-layered satin bonnet that protects extensions and natural hair while you sleep. Reduces frizz and maintains styling."
-    },
-    {
-      id: 6,
-      name: "Designer Silk Durags",
-      price: "$35.00 AUD",
-      image: "https://images.unsplash.com/photo-1541996154-7b6cef0de84e?w=400&q=80", 
-      description: "High-quality silk durags available in multiple colors. Perfect for laying edges and maintaining waves while protecting hair."
-    },
-    {
-      id: 7,
-      name: "Professional Detangling Brush",
-      price: "$32.00 AUD",
-      image: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=400&q=80",
-      description: "Specially designed brush with flexible bristles that gently detangle extensions without damage or shedding."
-    },
-    {
-      id: 8,
-      name: "Hair Extension Storage Case",
-      price: "$45.00 AUD",
-      image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&q=80",
-      description: "Elegant storage case with compartments to keep your extensions organized, clean, and tangle-free when not in use."
-    }
-  ];
-
-  const haircareProducts = [
-    {
-      id: 9,
-      name: "Edge Control Wax Stick",
-      price: "$22.00 AUD",
-      image: "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=400&q=80",
-      description: "Premium edge control wax for laying edges and taming flyaways. Long-lasting hold without flaking or buildup."
-    },
-    {
-      id: 10,
-      name: "Scalp Refreshing Spray",
-      price: "$28.00 AUD",
-      image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80",
-      description: "Invigorating spray with tea tree oil and peppermint that cleanses and refreshes your scalp between washes."
-    },
-    {
-      id: 11,
-      name: "Hair Growth Serum",
-      price: "$35.00 AUD",
-      image: "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=400&q=80",
-      description: "Advanced formula with biotin and keratin that promotes healthy hair growth and strengthens existing strands."
-    },
-    {
-      id: 12,
-      name: "Deep Hydration Hair Mask",
-      price: "$42.00 AUD",
-      image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&q=80",
-      description: "Intensive weekly treatment with argan oil and shea butter that restores moisture and shine to damaged hair."
-    }
-  ];
+  {
+    "id": 10123160322332,
+    "name": "36” The Baddest Pony - Straight",
+    "price": "$80.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/D4F726D3-83A3-47AB-9DD6-6AEDAD525021.jpg?v=1744030280",
+    "description": "The Baddest Ponytail – 36” of Straight-Up Main Character Energy\n Meet The Baddest Pony – the ultimate showstopper for the girl who walks in and owns t..."
+  },
+  {
+    "id": 10016394674460,
+    "name": "Drawstring Bun",
+    "price": "$80.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A1A920D5-031B-40A0-BA39-26D06AE1CC64.png?v=1744077790",
+    "description": "The perfect style! Look instantly fabulous with a baddie updo without the effort...."
+  },
+  {
+    "id": 10009148490012,
+    "name": "20” Straight Up Ponytail",
+    "price": "$80.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Straight_Up_Ponytail_20.jpg?v=1735890078",
+    "description": "\nStraight Up – 20” Drawstring Ponytail\nShorter length, same baddie energy.\nMeet your new fave: the 20” Straight Up Ponytail. She’s sleek, sassy, and a..."
+  },
+  {
+    "id": 10009152717084,
+    "name": "20” I’m So Wavy Ponytail",
+    "price": "$80.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/I_m_So_Wavy_Ponytail_20.jpg?v=1735889860",
+    "description": "\n\nLength: 20”Weight:  120 gStyle: I’m So Wavy\nHeat Resistant 180 Degrees\n \nHair that looks &amp; feels like yours: Dedicated to making soft &amp; high..."
+  }
+];
 
   const clipinProducts = [
-    {
-      id: 2,
-      name: "Clip-In Hair Extensions Set - Honey Blonde",
-      price: "$165.00 AUD",
-      image: "https://images.unsplash.com/photo-1560869713-7d0954650da1?w=400&q=80",
-      description: "Complete 7-piece honey blonde clip-in extension set. 120g total weight with premium European hair for natural-looking volume and length."
-    },
-    {
-      id: 13,
-      name: "Halo Hair Extension - Invisible Wire",
-      price: "$135.00 AUD",
-      image: "https://images.unsplash.com/photo-1541823709867-1b206113eafd?w=400&q=80",
-      description: "Revolutionary invisible wire halo extension that requires no clips or damage. 24-inch length for instant transformation."
-    },
-    {
-      id: 14,
-      name: "Luxury Clip-In Set - Chocolate Brown",
-      price: "$155.00 AUD",
-      image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400&q=80",
-      description: "Premium 6-piece clip-in set in rich chocolate brown. Heat-resistant human hair with professional-grade clips for secure application."
-    },
-    {
-      id: 15,
-      name: "Volume Boost Clip-Ins - Jet Black",
-      price: "$125.00 AUD",
-      image: "https://images.unsplash.com/photo-1487412912498-0447578fcca8?w=400&q=80",
-      description: "Specially designed volume-boosting clip-ins in jet black. Perfect for adding thickness and fullness to fine hair."
-    }
-  ];
+  {
+    "id": 10123373576476,
+    "name": "24” Hello Halo",
+    "price": "$100.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5936.jpg?v=1744052381",
+    "description": "Halo hair extensions are a popular choice for adding volume and length to your natural hair with minimal effort. These extensions consist of a single ..."
+  },
+  {
+    "id": 10123361681692,
+    "name": "24” Loose Curl Clip In",
+    "price": "$100.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/48BBBFA5-BB94-4A4E-A833-EC1A09D3B1F8.jpg?v=1744049669",
+    "description": "Loose Curl Clip-Ins – 24” of Effortless Bounce\nSay hello to soft, romantic curls that blend like a dream. Our 24-inch Loose Curl Clip-Ins give you len..."
+  },
+  {
+    "id": 10009030721820,
+    "name": "Clip In Fringe",
+    "price": "$20.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/clipinfringes.jpg?v=1744077058",
+    "description": "Effortless Bangs! Clip on an instant baddie fringe without the commitment of cutting your hair. ..."
+  },
+  {
+    "id": 8135032275228,
+    "name": "24” Lux Clip In Set Straight",
+    "price": "$100.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/black_1B_490d0f93-5b86-4498-8add-fa43e0484307.jpg?v=1730511618",
+    "description": "\n \n\nLux  Hair Clip Ins 24” 180g\n7 pieces \n \n \n\n\n..."
+  }
+];
+
+  const haircareProducts = [
+  {
+    "id": 10118133023004,
+    "name": "Sleek Stick",
+    "price": "$21.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/A1744259-2A01-4CDC-A41D-BAD04B3054CC.jpg?v=1743589612",
+    "description": "THE ULTIMATE SLEEK STICK\nSLEEK &amp; TREAT - literally! The very first keratin oil infused hair stick! Enriched with jojoba oil &amp; Camellia oil to ..."
+  },
+  {
+    "id": 10118111592732,
+    "name": "Marinate Hydration Mask",
+    "price": "$35.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/IMG-5577.jpg?v=1743589503",
+    "description": "SOFT AF HAIR MASK🤌\n RESTORE NOURISHMENT AND JAWDROPPING SHINE WITH OUR INTENSE HYDRATION MASK!\nOUR WATERMELON SCENT. PLANT BASED TREAMENT MASK THAT W..."
+  },
+  {
+    "id": 10054091604252,
+    "name": "Manifest Growth Spray",
+    "price": "$31.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/6F249ED9-E6C3-4809-A752-44B42CC2D3CF.jpg?v=1743589209",
+    "description": "LETS GROW BBY! Perfect for bringing life back into your Ponytail or Hair Extensions!\nBB Sleeks manifest growth spray has been carefully &amp; intuitiv..."
+  },
+  {
+    "id": 9981407363356,
+    "name": "Smooth me Brush",
+    "price": "$28.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/5DD054B7-5B72-411B-BC61-75C2DD730E06.jpg?v=1733449944",
+    "description": " \nPsssst! This is your match made in HEAVEN!\nTHE SMOOTH ME BRUSH // FR SLEEK SLAY EVERYDAY\n \nYour actual staple brush, sis she means business!The soft..."
+  }
+];
+
+  const accessoryProducts = [
+  {
+    "id": 10147265773852,
+    "name": "Gift Cards",
+    "price": "$10.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/LogoPNG_02062f80-03de-40a9-8ad7-ae3e55a338db.png?v=1730187238",
+    "description": "🎁 Bad &amp; Boujee Hair Digital Gift Card\n\nThe perfect gift for every slay.\nNot sure which pony to pick? Let them choose their perfect style, shade, ..."
+  },
+  {
+    "id": 10054096355612,
+    "name": "BB Detangle",
+    "price": "$32.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/3BD50673-E495-427B-8FF2-5A81054821B5.jpg?v=1743589185",
+    "description": "TANGLE-FREE HAIR DAILY!\n\nIf repunzel had one brush request - BB DETANGLE would be it! Be ready for this to become your staple with her effortlessly de..."
+  },
+  {
+    "id": 10009093603612,
+    "name": "Annie Full Lace Wig 30”",
+    "price": "$100.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/Annie_full_lace_wig.jpg?v=1735885210",
+    "description": "Please allow 1 week for this week if ordered in January ..."
+  },
+  {
+    "id": 9973998092572,
+    "name": "Bad & Boujee Silk Protective Bag",
+    "price": "$10.00 AUD",
+    "image": "https://cdn.shopify.com/s/files/1/0718/7949/1868/files/995DDB09-A492-4964-888B-7CD963C8A666.png?v=1744078182",
+    "description": "The perfect addition to your new Bad &amp; Boujee Ponytail, Extension or Wig. These silk protective bags will become your new storage or travel bestie..."
+  }
+];
 
   return (
     <div className="min-h-screen">
@@ -152,9 +154,9 @@ export default function Home() {
       <ShoppingCart />
       <HeroSlider />
       <ProductSection title="Ponytails" products={ponytailProducts} id="ponytails" />
-      <ProductSection title="Accessories" products={accessoryProducts} id="accessories" />
-      <ProductSection title="Hair Care" products={haircareProducts} id="haircare" />
       <ProductSection title="Clip-In Extensions" products={clipinProducts} id="clipins" />
+      <ProductSection title="Hair Care" products={haircareProducts} id="haircare" />
+      <ProductSection title="Accessories" products={accessoryProducts} id="accessories" />
       <BookingSection />
       <TargetMarket />
       <SocialFeed />
@@ -166,7 +168,7 @@ export default function Home() {
         onClose={() => setShowNotification(false)}
         type="purchase"
         customerName="Emma K."
-        productName="Boujee Curl Ponytail - Honey Blonde"
+        productName="36” The Baddest Pony - Straight"
         location="Melbourne"
         timeAgo="3 minutes ago"
       />
